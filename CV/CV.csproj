@@ -101,6 +101,7 @@
       <DependentUpon>cv.css</DependentUpon>
     </Content>
     <Content Include="CV.html" />
+    <Content Include="images\Vlad-Mocanu.PNG" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
