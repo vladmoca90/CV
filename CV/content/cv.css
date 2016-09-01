@@ -14,6 +14,9 @@ body {
   width: 100%;
   max-width: 750px; }
 
+.contact-texts p {
+  margin: 0 0 7px; }
+
 .details-section,
 .education-section,
 .other-skills-section {
@@ -26,7 +29,7 @@ body {
   max-height: 225px; }
 
 .other-skills-section {
-  max-height: 290px; }
+  max-height: 245px; }
 
 header,
 section {
@@ -77,10 +80,6 @@ hr {
     margin-left: 2%; }
   .cv-properties .asideLeftEducation {
     margin-left: 8%; }
-  .cv-properties .asideLeftOtherSkills {
-    width: 100%;
-    max-width: 450px;
-    margin-left: 7%; }
 
 .sectionProjects p {
   margin-left: 7px; }
