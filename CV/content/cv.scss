@@ -12,7 +12,8 @@ body {
     width: 100%;
 	max-width: 770px; 
 } 
-#cv-header, 
+#cv-header,
+#contact-details, 
 #cv-middle,
 #cv-footer {
 	width: 100%;
@@ -26,6 +27,5 @@ section {
 .nameTitle {  
     font-weight: bold;
 	letter-spacing: 1px;
-	font-size: 36px;
 	margin-top: 10px; 
 }
