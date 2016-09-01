@@ -6,33 +6,12 @@ body {
 }
 .curriculumVitae {
     margin: 2% auto;
+    font-family: Ubuntu;
     border: 1px solid #EEE;
     overflow: hidden;
+    width: 100%;
+	max-width: 770px; 
 } 
-.curriculumVitae,
-.details-section,
-.education-section,
-.other-skills-section {
-	width: 100%;
-	max-width: 700px;  
-} 
-.contact-texts p {
-    margin: 0 0 7px;
-}
-.details-section,
-.education-section,
-.other-skills-section {
-    height: 100%;
-}
-.details-section {
-    max-height: 200px;
-}
-.education-section {
-    max-height: 235px;
-}
-.other-skills-section {
-    max-height: 245px;
-}
 header, 
 section {
 	width: 100%;
@@ -43,65 +22,9 @@ section {
     margin-top: 7%;
     margin-bottom: 5%;
 }
-hr {
-	margin: 0px;
-	border-top: 2px solid #3CB371;
-}
-.addressTitle,
-.nameTitle,
-.sectionTitle,
-.cv-properties,
-#relevant-skills li {
-	font-family: Ubuntu;
-}
-.sectionTitle,
-.nameTitle {
-	font-weight: bold;
-}
 .nameTitle {  
+    font-weight: bold;
 	letter-spacing: 1px;
 	font-size: 36px;
 	margin-top: 10px; 
-}
-.sectionTitle {
-    font-size: 21px;
-	color: #000;
-	text-indent: 10px;
-    margin-top: 1.5%;
-    span {
-	    color: #000;
-        position: relative;
-        top: 3px;
-    }
-}
-.cv-properties {
-	margin: 3% 2% 0% 3%;
-    aside {
-	    border-top: 0px;
-	    padding: 3px 10px;
-    }
-    .asideLeft {
-        margin-left: 2%;
-    }
-    .asideLeftEducation {
-        margin-left: 8%;
-    }
-}
-.sectionProjects p {
-    margin-left: 7px;
-}
-.contactDetailsWidth {
-	width: 100%;
-}
-#relevant-skills {
-	margin-top: 3.5%;
-    li {
-	    list-style-type: none;
-	    margin-top: 10px;
-    }
-}
-.addressTitle,
-.cv-properties,
-#relevant-skills li {
-	font-size: 17px;
 }
