@@ -12,8 +12,12 @@ body {
 
 #curriculumVitae,
 #cv-header,
-#contact-details,
 #cv-middle,
+#contact-details,
+#education-section,
+#skills-section,
+#projects-section,
+#other-skills-section
 #cv-footer {
   width: 100%; }
 
@@ -24,18 +28,26 @@ body {
 #cv-header,
 #contact-details,
 #cv-middle,
-#cv-footer {
+#cv-footer,
+#education-section {
   max-width: 750px;
   margin: auto; }
 
 h3 {
   font-weight: bold; }
 
+#contact-details,
+#education-section,
+#skills-section,
+#projects-section,
+#other-skills-section {
+  margin-top: 4%; }
+
 #contact-details > figure,
 #personal-information {
   max-height: 285px;
   float: left;
-  margin-left: 3%; }
+  margin-left: 4%; }
 
 #personal-information {
   font-size: 17px; }
