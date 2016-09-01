@@ -71,14 +71,18 @@ hr {
 #personal-information {
     max-height: 285px;
     float: left;
-    margin-left: 4%;
+    margin-left: 3.5%;
 }
 #personal-information,
-#skills-section ul>li {
+#skills-section ul>li,
+#projects-section .projects-texts {
     font-size: 17px;
 }
+.titles {
+    font-weight: bold;
+}
 #personal-information {
-    max-width: 450px;
+    max-width: 465px;
 }
 #skills-section ul>li {
     margin-top: 1.5%;
