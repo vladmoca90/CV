@@ -25,7 +25,7 @@ body,
 
 .nameTitle,
 .cv-titles {
-  font-family: Verdana; }
+  font-family: Tahoma; }
 
 #cv-header {
   max-height: 70px;
@@ -62,7 +62,7 @@ body,
 
 #personal-information {
   max-width: 535px;
-  margin-top: 2.75%; }
+  margin-top: 2.7%; }
 
 #contact-details figure > img {
   max-height: 200px;
@@ -107,14 +107,14 @@ span {
 #projects-section,
 #other-skills-section {
   overflow: hidden;
-  font-family: Tahoma; }
+  font-family: Calibri; }
 
 #personal-information,
 #education-section,
 #skills-section ul > li,
 #projects-section .projects-texts,
 .other-skills-texts {
-  font-size: 16px; }
+  font-size: 18px; }
 
 #skills-section ul > li {
   margin-top: 1.5%; }
