@@ -72,7 +72,8 @@ a {
 #contact-details {
   margin-top: 1%; }
   #contact-details figure > img {
-    max-height: 200px; }
+    max-height: 200px;
+    margin-bottom: 9%; }
 
 #contact-details > figure,
 #personal-information,
