@@ -66,7 +66,11 @@ body {
   float: left;
   margin-left: 5%; }
 
+.avantaj-consulting {
+  margin-left: 11.5%; }
+
 .cv-titles {
+  margin: 0.75% 0% 0% 1.5%;
   font-weight: bold;
   font-size: 21px; }
 
