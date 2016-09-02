@@ -56,9 +56,9 @@ body,
 #education-section {
   margin: auto; }
 
-#cv-middle {
-  margin-top: 2%;
-  margin-bottom: 5%; }
+#cv-middle,
+.cv-titles {
+  margin: 2% 0%; }
 
 #personal-information {
   max-width: 535px;
@@ -89,7 +89,6 @@ body,
   margin-left: 10.5%; }
 
 .cv-titles {
-  margin: 2.5% 0%;
   background: #304153;
   color: #FFF;
   font-size: 20px; }
@@ -115,6 +114,8 @@ span {
 .other-skills-texts {
   font-size: 18px; }
 
-#skills-section ul > li {
-  margin-top: 1.5%; }
+#skills-section ul {
+  margin-bottom: 0px; }
+  #skills-section ul li {
+    margin-top: 1.5%; }
 
