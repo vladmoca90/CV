@@ -8,12 +8,19 @@ body {
 	padding: 0px;
 	margin: 0 auto;
 }
+#curriculumVitae,
+#cv-header,
+#contact-details, 
+#cv-middle,
+#cv-footer,
+#education-section {
+    max-width: 770px; 
+}
 #curriculumVitae {
     margin: 2% auto;
     font-family: Ubuntu;
     overflow: hidden; 
-    border: 1px solid #EEE;
-	max-width: 770px; 
+    border: 1px solid #DDD;
 } 
 .nameTitle {  
     font-weight: bold;
@@ -51,9 +58,7 @@ body {
     width: $max-width;
 }
 #cv-header,
-#contact-details figure>img,
-#contact-details>figure,
-#personal-information {
+#contact-details figure>img {
     height: $max-height;
 }
 #cv-header,
@@ -61,7 +66,6 @@ body {
 #cv-middle,
 #cv-footer,
 #education-section {
-	max-width: 770px;
 	margin: auto;
 }
 #cv-middle {
@@ -69,7 +73,10 @@ body {
     margin-bottom: 5%;
 }
 a {
-    color: #7AB4E5;
+    color: #5399D4;
+}
+#personal-information {
+    max-width: 465px;
 }
 #contact-details {
     margin-top: 5%;
@@ -78,21 +85,24 @@ a {
     }
 }
 #contact-details>figure,
-#personal-information {
-    max-height: 225px;
-    float: left;
-    margin-left: 3.5%;
-}
+#personal-information, 
 .education-year,
 .education-institution {
     float: left;
+}
+#contact-details>figure,
+#personal-information {
+    margin-left: 4.5%;
+}
+.education-year,
+.education-institution {
     margin-left: 5%;
 }
 .avantaj-consulting {
     margin-left: 11.5%;
 }
 .cv-titles {
-    margin: 0.75% 0% 0% 1.5%;
+    margin: 0.75% 0% 0% 1.8%;
     font: {
         weight: bold;
         size: 21px;
@@ -107,6 +117,7 @@ a {
     }
 hr {
     margin-top: 1%;
+    background: #DDD;
 }
 #contact-details,
 #education-section,
@@ -127,9 +138,6 @@ hr {
 .skills-list,
 .other-skills-texts {
     margin-left: 2%;
-}
-#personal-information {
-    max-width: 465px;
 }
 #skills-section ul>li {
     margin-top: 1.5%;
