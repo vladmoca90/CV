@@ -62,16 +62,13 @@ body,
   margin-top: 2%;
   margin-bottom: 5%; }
 
-a {
-  color: #5399D4; }
-
 #personal-information {
   max-width: 535px;
   margin-top: 2.75%; }
 
 #contact-details figure > img {
   max-height: 200px;
-  margin-bottom: 9%; }
+  margin-bottom: 5%; }
 
 #contact-details > figure,
 #personal-information,
