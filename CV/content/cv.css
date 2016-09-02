@@ -61,6 +61,11 @@ body {
   margin-top: 7%;
   margin-bottom: 5%; }
 
+.education-year,
+.education-institution {
+  float: left;
+  margin-left: 5%; }
+
 .cv-titles {
   font-weight: bold;
   font-size: 21px; }
@@ -86,6 +91,7 @@ hr {
   margin-left: 3.5%; }
 
 #personal-information,
+#education-section,
 #skills-section ul > li,
 #projects-section .projects-texts,
 .other-skills-texts {
