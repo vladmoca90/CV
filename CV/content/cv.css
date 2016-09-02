@@ -59,7 +59,7 @@ body,
   margin: auto; }
 
 #cv-middle {
-  margin-top: 2.5%;
+  margin-top: 2%;
   margin-bottom: 5%; }
 
 a {
@@ -70,7 +70,7 @@ a {
   margin-top: 2.75%; }
 
 #contact-details {
-  margin-top: 5%; }
+  margin-top: 1%; }
   #contact-details figure > img {
     max-height: 200px; }
 
@@ -97,14 +97,13 @@ a {
 
 .cv-titles {
   margin: 0.75% 0% 2% 0%;
-  text-align: center;
   background: #304153;
   color: #FFF;
   font-weight: bold;
   font-size: 20px; }
-  .cv-titles span {
-    position: relative;
-    top: 2px; }
+
+span {
+  color: #304153; }
 
 .titles {
   font-weight: bold; }
@@ -114,7 +113,6 @@ a {
 #skills-section,
 #projects-section,
 #other-skills-section {
-  margin-top: 1%;
   overflow: hidden;
   font-family: Roboto; }
 
