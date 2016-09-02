@@ -15,12 +15,22 @@ body {
   letter-spacing: 1px;
   margin-top: 10px; }
 
-#cv-header {
-  max-height: 125px;
-  background: #304153;
+#cv-header,
+#education-section,
+#projects-section {
   color: white; }
+
+#cv-header {
+  max-height: 70px;
+  margin: 0%; }
   #cv-header h1 {
-    margin-top: 3%; }
+    margin: 0% auto;
+    line-height: 70px; }
+
+#cv-header,
+#education-section,
+#projects-section {
+  background: #304153; }
 
 #curriculumVitae,
 #cv-header,
@@ -34,6 +44,7 @@ body {
 #cv-footer {
   width: 100%; }
 
+#cv-header,
 #contact-details > figure,
 #personal-information {
   height: 100%; }
@@ -43,7 +54,7 @@ body {
 #cv-middle,
 #cv-footer,
 #education-section {
-  max-width: 750px;
+  max-width: 770px;
   margin: auto; }
 
 #cv-middle {
