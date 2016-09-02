@@ -68,12 +68,18 @@ body,
 }
 #personal-information {
     max-width: 535px;
-    margin-top: 2.2%;
+    margin-top: 2.4%;
 }
 #contact-details {
-    figure>img {
-        max-height: 200px;
-    }
+    figure {
+        @media screen and (min-width: 320px) and (max-width: 599px) {
+            margin: auto;
+            float: none;
+        }
+        img {
+            max-height: 200px;
+        }
+    } 
 }
 #contact-details>figure,
 #personal-information, 
@@ -103,6 +109,9 @@ body,
 }
 span {
     color: #304153;
+    @media screen and (min-width: 320px) and (max-width: 412px) {
+        display: none;
+    }
 }
 .titles {
         font-weight: bold;
