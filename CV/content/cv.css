@@ -97,7 +97,7 @@ a {
 
 .cv-titles {
   margin: 0.75% 0% 2% 0%;
-  padding-left: 3%;
+  text-align: center;
   background: #304153;
   color: #FFF;
   font-weight: bold;
