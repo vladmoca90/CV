@@ -1,5 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 $max-width: 100%;
 $max-height: 100%;
@@ -33,7 +32,7 @@ body,
 }
 .nameTitle,
 .cv-titles {
-    font-family: Ubuntu;
+    font-family: Verdana;
 }
 #cv-header {
     max-height: 70px;
@@ -104,10 +103,7 @@ body,
     margin: 0.75% 0% 2% 0%;
     background: #304153;
     color: $white;
-    font: {
-        weight: bold;
-        size: 20px;
-    }
+    font-size: 20px;
 }
 span {
     color: #304153;

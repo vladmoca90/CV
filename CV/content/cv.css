@@ -1,5 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css?family=Ubuntu");
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+﻿@import url("https://fonts.googleapis.com/css?family=Roboto");
 body {
   padding: 0px; }
 
@@ -27,7 +26,7 @@ body,
 
 .nameTitle,
 .cv-titles {
-  font-family: Ubuntu; }
+  font-family: Verdana; }
 
 #cv-header {
   max-height: 70px;
@@ -95,7 +94,6 @@ body,
   margin: 0.75% 0% 2% 0%;
   background: #304153;
   color: #FFF;
-  font-weight: bold;
   font-size: 20px; }
 
 span {
