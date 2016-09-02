@@ -73,8 +73,8 @@ a {
     color: #5399D4;
 }
 #personal-information {
-    max-width: 530px;
-   margin-top: 2.75%;
+    max-width: 535px;
+    margin-top: 2.75%;
 }
 #contact-details {
     margin-top: 5%;
@@ -84,20 +84,24 @@ a {
 }
 #contact-details>figure,
 #personal-information, 
+#personal-information-details-left,
+#personal-information-details-right,
 .education-year,
 .education-institution {
     float: left;
 }
 #contact-details>figure,
-#personal-information {
-    margin-left: 4.5%;
-}
+#personal-information,
+#personal-information-details-right,
 .education-year,
-.education-institution {
-    margin-left: 5%;
+.education-institution,
+#projects-section .projects-texts,
+.skills-list,
+.other-skills-texts {
+    margin-left: 4%;
 }
 .avantaj-consulting {
-    margin-left: 11.5%;
+    margin-left: 10.5%;
 }
 .cv-titles {
     margin: 0.75% 0% 2% 0%;
@@ -131,11 +135,6 @@ a {
 #projects-section .projects-texts,
 .other-skills-texts {
     font-size: 17px;
-}
-#projects-section .projects-texts,
-.skills-list,
-.other-skills-texts {
-    margin-left: 2%;
 }
 #skills-section ul>li {
     margin-top: 1.5%;
