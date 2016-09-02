@@ -65,8 +65,7 @@ body,
   margin-top: 2.6%; }
 
 #contact-details figure > img {
-  max-height: 200px;
-  margin-bottom: 5%; }
+  max-height: 200px; }
 
 #contact-details > figure,
 #personal-information,
@@ -90,7 +89,7 @@ body,
   margin-left: 10.5%; }
 
 .cv-titles {
-  margin: 0.75% 0% 2% 0%;
+  margin: 2.5% 0%;
   background: #304153;
   color: #FFF;
   font-size: 20px; }
