@@ -16,8 +16,13 @@ body {
 	letter-spacing: 1px;
 	margin-top: 10px; 
 }
-#cv-header h1 {
-    margin-top: 3%;
+#cv-header {
+    max-height: 125px;
+    background: #304153;
+    color: white;
+    h1 {
+        margin-top: 3%;
+    }
 }
 #curriculumVitae,
 #cv-header,
@@ -75,7 +80,8 @@ hr {
 }
 #personal-information,
 #skills-section ul>li,
-#projects-section .projects-texts {
+#projects-section .projects-texts,
+.other-skills-texts {
     font-size: 17px;
 }
 .titles {
