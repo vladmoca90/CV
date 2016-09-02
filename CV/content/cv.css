@@ -18,7 +18,7 @@ body {
 #cv-header,
 #education-section,
 #projects-section {
-  color: white; }
+  color: #FFF; }
 
 #cv-header {
   max-height: 70px;
@@ -45,6 +45,7 @@ body {
   width: 100%; }
 
 #cv-header,
+#contact-details figure > img,
 #contact-details > figure,
 #personal-information {
   height: 100%; }
@@ -61,6 +62,20 @@ body {
   margin-top: 7%;
   margin-bottom: 5%; }
 
+a {
+  color: #7AB4E5; }
+
+#contact-details {
+  margin-top: 5%; }
+  #contact-details figure > img {
+    max-height: 200px; }
+
+#contact-details > figure,
+#personal-information {
+  max-height: 225px;
+  float: left;
+  margin-left: 3.5%; }
+
 .education-year,
 .education-institution {
   float: left;
@@ -73,6 +88,12 @@ body {
   margin: 0.75% 0% 0% 1.5%;
   font-weight: bold;
   font-size: 21px; }
+  .cv-titles span {
+    position: relative;
+    top: 2px; }
+
+.titles {
+  font-weight: bold; }
 
 hr {
   margin-top: 1%; }
@@ -85,15 +106,6 @@ hr {
   margin-top: 2%;
   overflow: hidden; }
 
-#contact-details {
-  margin-top: 5%; }
-
-#contact-details > figure,
-#personal-information {
-  max-height: 285px;
-  float: left;
-  margin-left: 3.5%; }
-
 #personal-information,
 #education-section,
 #skills-section ul > li,
@@ -101,8 +113,10 @@ hr {
 .other-skills-texts {
   font-size: 17px; }
 
-.titles {
-  font-weight: bold; }
+#projects-section .projects-texts,
+.skills-list,
+.other-skills-texts {
+  margin-left: 2%; }
 
 #personal-information {
   max-width: 465px; }

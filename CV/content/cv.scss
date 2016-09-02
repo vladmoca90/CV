@@ -1,5 +1,9 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+$max-width: 100%;
+$max-height: 100%;
+$white: #FFF;
+
 body {   
 	padding: 0px;
 	margin: 0 auto;
@@ -19,7 +23,7 @@ body {
 #cv-header,
 #education-section,
 #projects-section {
-    color: white;
+    color: $white;
 }
 #cv-header {
     max-height: 70px;
@@ -44,12 +48,13 @@ body {
 #projects-section,
 #other-skills-section 
 #cv-footer {
-    width: 100%;
+    width: $max-width;
 }
 #cv-header,
+#contact-details figure>img,
 #contact-details>figure,
 #personal-information {
-    height: 100%;
+    height: $max-height;
 }
 #cv-header,
 #contact-details, 
@@ -62,6 +67,21 @@ body {
 #cv-middle {
     margin-top: 7%;
     margin-bottom: 5%;
+}
+a {
+    color: #7AB4E5;
+}
+#contact-details {
+    margin-top: 5%;
+    figure>img {
+        max-height: 200px;
+    }
+}
+#contact-details>figure,
+#personal-information {
+    max-height: 225px;
+    float: left;
+    margin-left: 3.5%;
 }
 .education-year,
 .education-institution {
@@ -77,7 +97,14 @@ body {
         weight: bold;
         size: 21px;
     }
+    span {
+        position: relative;
+        top: 2px;
+    }
 }
+.titles {
+        font-weight: bold;
+    }
 hr {
     margin-top: 1%;
 }
@@ -89,15 +116,6 @@ hr {
     margin-top: 2%;
     overflow: hidden;
 }
-#contact-details {
-    margin-top: 5%;
-}
-#contact-details>figure,
-#personal-information {
-    max-height: 285px;
-    float: left;
-    margin-left: 3.5%;
-}
 #personal-information,
 #education-section,
 #skills-section ul>li,
@@ -105,8 +123,10 @@ hr {
 .other-skills-texts {
     font-size: 17px;
 }
-.titles {
-    font-weight: bold;
+#projects-section .projects-texts,
+.skills-list,
+.other-skills-texts {
+    margin-left: 2%;
 }
 #personal-information {
     max-width: 465px;
