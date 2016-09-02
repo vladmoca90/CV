@@ -1,12 +1,17 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 $max-width: 100%;
 $max-height: 100%;
 $white: #FFF;
+$margin-auto: 0 auto;
 
 body {   
 	padding: 0px;
-	margin: 0 auto;
+}
+body, 
+#cv-header h1 {
+    margin: $margin-auto;
 }
 #curriculumVitae,
 #cv-header,
@@ -18,7 +23,6 @@ body {
 }
 #curriculumVitae {
     margin: 2% auto;
-    font-family: Ubuntu;
     overflow: hidden; 
     border: 1px solid #DDD;
 } 
@@ -27,23 +31,16 @@ body {
 	letter-spacing: 1px;
 	margin-top: 10px; 
 }
-#cv-header,
-#education-section,
-#projects-section {
-    color: $white;
+.nameTitle,
+.cv-titles {
+    font-family: Ubuntu;
 }
 #cv-header {
     max-height: 70px;
-    margin: 0%;
+    margin-top: 3%;
     h1 {
-        margin: 0% auto;
         line-height: 70px;
     }
-}
-#cv-header,
-#education-section,
-#projects-section {
-    background: #304153;
 }
 #curriculumVitae,
 #cv-header,
@@ -69,7 +66,7 @@ body {
 	margin: auto;
 }
 #cv-middle {
-    margin-top: 7%;
+    margin-top: 4%;
     margin-bottom: 5%;
 }
 a {
@@ -77,6 +74,7 @@ a {
 }
 #personal-information {
     max-width: 465px;
+   margin-top: 2.75%;
 }
 #contact-details {
     margin-top: 5%;
@@ -102,7 +100,10 @@ a {
     margin-left: 11.5%;
 }
 .cv-titles {
-    margin: 0.75% 0% 0% 1.8%;
+    margin: 0.75% 0% 2% 0%;
+    padding-left: 3%;
+    background: #304153;
+    color: $white;
     font: {
         weight: bold;
         size: 21px;
@@ -115,17 +116,14 @@ a {
 .titles {
         font-weight: bold;
     }
-hr {
-    margin-top: 1%;
-    background: #DDD;
-}
 #contact-details,
 #education-section,
 #skills-section,
 #projects-section,
 #other-skills-section {
-    margin-top: 2%;
+    margin-top: 1%;
     overflow: hidden;
+    font-family: Roboto;
 }
 #personal-information,
 #education-section,
