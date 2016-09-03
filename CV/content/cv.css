@@ -19,9 +19,14 @@ body,
   border: 1px solid #DDD; }
 
 .nameTitle {
-  font-weight: bold;
   letter-spacing: 1px;
   margin-top: 10px; }
+
+.nameTitle,
+#avantaj-consulting p:first-child,
+#university-of-birmingham p:first-child,
+.titles {
+  font-weight: bold; }
 
 .nameTitle,
 .cv-titles {
@@ -61,11 +66,11 @@ body,
   margin: 2% 0%; }
 
 #personal-information {
-  max-width: 490px;
+  max-width: 485px;
   margin-top: 4.5%; }
   @media screen and (min-width: 721px) and (max-width: 767px) {
     #personal-information {
-      max-width: 500px; } }
+      max-width: 450px; } }
 
 #contact-details > figure,
 #personal-information,
@@ -110,7 +115,7 @@ body,
     .skills-list,
     .other-skills-texts {
       margin-left: 2%; } }
-  @media screen and (min-width: 434px) and (max-width: 720px) {
+  @media screen and (min-width: 434px) and (max-width: 511px) {
     #contact-details > figure,
     #personal-information,
     .education-year,
@@ -135,7 +140,22 @@ body,
     float: none; } }
 
 #personal-information-details-right {
-  margin-left: 3%; }
+  margin-left: 2.5%; }
+  @media screen and (min-width: 320px) and (max-width: 359px) {
+    #personal-information-details-right {
+      margin-left: 1%; } }
+  @media screen and (min-width: 360px) and (max-width: 374px) {
+    #personal-information-details-right {
+      margin-left: 1.3%; } }
+  @media screen and (min-width: 375px) and (max-width: 411px) {
+    #personal-information-details-right {
+      margin-left: 2%; } }
+  @media screen and (min-width: 412px) and (max-width: 433px) {
+    #personal-information-details-right {
+      margin-left: 1.25%; } }
+  @media screen and (min-width: 512px) and (max-width: 599px) {
+    #personal-information-details-right {
+      margin-left: 3%; } }
 
 @media screen and (min-width: 320px) and (max-width: 412px) {
   .education-institution {
@@ -154,23 +174,34 @@ body,
       float: none;
       display: block; } }
 
-.avantaj-consulting {
+#avantaj-consulting {
   margin-left: 10.5%; }
   @media screen and (min-width: 320px) and (max-width: 359px) {
-    .avantaj-consulting {
+    #avantaj-consulting {
       margin-left: 14.5%; } }
-  @media screen and (min-width: 360px) and (max-width: 412px) {
-    .avantaj-consulting {
+  @media screen and (min-width: 360px) and (max-width: 411px) {
+    #avantaj-consulting {
       margin-left: 14%; } }
-  @media screen and (min-width: 413px) and (max-width: 512px) {
-    .avantaj-consulting {
+  @media screen and (min-width: 412px) and (max-width: 433px) {
+    #avantaj-consulting {
+      margin-left: 14.5%; } }
+  @media screen and (min-width: 434px) and (max-width: 511px) {
+    #avantaj-consulting {
       margin-left: 12.5%; } }
+  @media screen and (min-width: 512px) and (max-width: 599px) {
+    #avantaj-consulting {
+      margin-left: 13.5%; } }
   @media screen and (min-width: 600px) and (max-width: 640px) {
-    .avantaj-consulting {
+    #avantaj-consulting {
       margin-left: 11.5%; } }
   @media screen and (min-width: 721px) and (max-width: 767px) {
-    .avantaj-consulting {
+    #avantaj-consulting {
       margin-left: 8.5%; } }
+
+#web-design,
+#env-science {
+  margin-top: -7px;
+  font-style: italic; }
 
 .cv-titles {
   background: #304153;
@@ -190,9 +221,6 @@ span {
   .projects-texts span,
   .other-skills-texts span {
     display: none; } }
-
-.titles {
-  font-weight: bold; }
 
 #contact-details,
 #education-section,
@@ -214,28 +242,35 @@ span {
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
-      font-size: 11px; } }
+      font-size: 12px; } }
   @media screen and (min-width: 360px) and (max-width: 383px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
-      font-size: 12px; } }
+      font-size: 13px; } }
   @media screen and (min-width: 384px) and (max-width: 411px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
-      font-size: 13px; } }
-  @media screen and (min-width: 412px) and (max-width: 512px) {
+      font-size: 14px; } }
+  @media screen and (min-width: 412px) and (max-width: 511px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
-      font-size: 14px; } }
+      font-size: 15px; } }
+  @media screen and (min-width: 512px) and (max-width: 599px) {
+    #personal-information,
+    #education-section,
+    #skills-section ul > li,
+    #projects-section .projects-texts,
+    .other-skills-texts {
+      font-size: 17px; } }
 
 #skills-section ul {
   margin-bottom: 0px; }
