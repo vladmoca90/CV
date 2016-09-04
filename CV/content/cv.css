@@ -11,7 +11,7 @@ body,
 #cv-middle,
 #cv-footer,
 #education-section {
-  max-width: 770px; }
+  max-width: 750px; }
 
 #curriculumVitae {
   margin: 2% auto;
@@ -33,8 +33,7 @@ body,
   font-family: Tahoma; }
 
 #cv-header {
-  max-height: 70px;
-  margin-top: 3%; }
+  max-height: 70px; }
   #cv-header h2 {
     line-height: 70px; }
 
@@ -148,16 +147,22 @@ body,
       margin-left: 2%; } }
   @media screen and (min-width: 412px) and (max-width: 433px) {
     #personal-information-details-right {
-      margin-left: 1.25%; } }
+      margin-left: 1.65%; } }
+  @media screen and (min-width: 434px) and (max-width: 511px) {
+    #personal-information-details-right {
+      margin-left: 2.5%; } }
   @media screen and (min-width: 512px) and (max-width: 599px) {
     #personal-information-details-right {
       margin-left: 3%; } }
 
 .icons-margin {
   margin-left: 6px; }
-  @media screen and (min-width: 320px) and (max-width: 412px) {
+  @media screen and (min-width: 320px) and (max-width: 411px) {
     .icons-margin {
       margin-left: 3px; } }
+  @media screen and (min-width: 412px) and (max-width: 512px) {
+    .icons-margin {
+      margin-left: 5px; } }
 
 @media screen and (min-width: 320px) and (max-width: 412px) {
   .education-institution {
@@ -195,7 +200,7 @@ body,
       margin-left: 13.5%; } }
   @media screen and (min-width: 600px) and (max-width: 640px) {
     #avantaj-consulting {
-      margin-left: 11.5%; } }
+      margin-left: 12.5%; } }
   @media screen and (min-width: 721px) and (max-width: 767px) {
     #avantaj-consulting {
       margin-left: 8.5%; } }
@@ -204,6 +209,10 @@ body,
 #env-science {
   margin-top: -7px;
   font-style: italic; }
+
+#env-science,
+#projects-section p:nth-child(15) {
+  margin-bottom: 0px; }
 
 .cv-titles {
   background: #304153;
@@ -244,22 +253,29 @@ span {
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
-      font-size: 12px; } }
+      font-size: 11px; } }
   @media screen and (min-width: 360px) and (max-width: 383px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
-      font-size: 13px; } }
+      font-size: 12px; } }
   @media screen and (min-width: 384px) and (max-width: 411px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
+      font-size: 13px; } }
+  @media screen and (min-width: 412px) and (max-width: 450px) {
+    #personal-information,
+    #education-section,
+    #skills-section ul > li,
+    #projects-section .projects-texts,
+    .other-skills-texts {
       font-size: 14px; } }
-  @media screen and (min-width: 412px) and (max-width: 511px) {
+  @media screen and (min-width: 451px) and (max-width: 511px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
@@ -274,8 +290,11 @@ span {
     .other-skills-texts {
       font-size: 17px; } }
 
-#skills-section ul {
+#skills-section .skills-list {
   margin-bottom: 0px; }
-  #skills-section ul li {
+  #skills-section .skills-list li {
     margin-top: 1.5%; }
+    #skills-section .skills-list li span:first-child {
+      position: relative;
+      top: 3px; }
 
