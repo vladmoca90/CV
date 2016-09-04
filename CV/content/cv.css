@@ -2,7 +2,7 @@
   padding: 0px; }
 
 body,
-#cv-header h1 {
+#cv-header h2 {
   margin: 0 auto; }
 
 #curriculumVitae,
@@ -35,7 +35,7 @@ body,
 #cv-header {
   max-height: 70px;
   margin-top: 3%; }
-  #cv-header h1 {
+  #cv-header h2 {
     line-height: 70px; }
 
 #curriculumVitae,
@@ -63,7 +63,7 @@ body,
 
 #cv-middle,
 .cv-titles {
-  margin: 2% 0%; }
+  margin: 1% 0%; }
 
 #personal-information {
   max-width: 485px;
@@ -133,7 +133,7 @@ body,
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   #personal-information {
-    margin: auto;
+    margin: 1% auto;
     float: none; } }
 
 #personal-information-details-right {
@@ -175,7 +175,7 @@ body,
   margin-left: 10.5%; }
   @media screen and (min-width: 320px) and (max-width: 359px) {
     #avantaj-consulting {
-      margin-left: 14.5%; } }
+      margin-left: 14.8%; } }
   @media screen and (min-width: 360px) and (max-width: 411px) {
     #avantaj-consulting {
       margin-left: 14%; } }
