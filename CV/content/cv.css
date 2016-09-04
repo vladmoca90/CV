@@ -68,9 +68,6 @@ body,
 #personal-information {
   max-width: 485px;
   margin-top: 2.5%; }
-  @media screen and (min-width: 721px) and (max-width: 767px) {
-    #personal-information {
-      max-width: 450px; } }
 
 #contact-details > figure,
 #personal-information,
@@ -134,7 +131,7 @@ body,
     .other-skills-texts {
       margin-left: 1%; } }
 
-@media screen and (min-width: 480px) and (max-width: 720px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   #personal-information {
     margin: auto;
     float: none; } }
@@ -161,14 +158,14 @@ body,
   .education-institution {
     margin-left: 5%; } }
 
-@media screen and (min-width: 320px) and (max-width: 720px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   #contact-details > figure {
     margin: auto;
     float: none; } }
 
 #contact-details > figure img {
   max-height: 200px; }
-  @media screen and (min-width: 320px) and (max-width: 720px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     #contact-details > figure img {
       margin: auto;
       float: none;

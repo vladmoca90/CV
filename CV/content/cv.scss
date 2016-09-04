@@ -79,9 +79,6 @@ body,
 #personal-information {
     max-width: 485px;
     margin-top: 2.5%;
-    @media screen and (min-width: 721px) and (max-width: 767px) {
-        max-width: 450px;
-    }
 }
 #contact-details>figure,
 #personal-information, 
@@ -116,7 +113,7 @@ body,
     }
 }
 #personal-information {
-    @media screen and (min-width: 480px) and (max-width: 720px) {
+    @media screen and (min-width: 480px) and (max-width: 767px) {
         @include margin-float-group;
     }
 }
@@ -144,13 +141,13 @@ body,
     }
 }
 #contact-details>figure {
-    @media screen and (min-width: 320px) and (max-width: 720px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
         @include margin-float-group;
     }
 } 
 #contact-details>figure img  {
     max-height: 200px;
-    @media screen and (min-width: 320px) and (max-width: 720px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
         @include margin-float-group;
         display: block;
     }
