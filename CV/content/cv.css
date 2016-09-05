@@ -274,15 +274,12 @@ body,
   @media screen and (min-width: 412px) and (max-width: 433px) {
     #avantaj-consulting {
       margin-left: 14.5%; } }
-  @media screen and (min-width: 434px) and (max-width: 511px) {
+  @media screen and (min-width: 434px) and (max-width: 599px) {
     #avantaj-consulting {
-      margin-left: 12.5%; } }
+      margin-left: 11.5%; } }
   @media screen and (min-width: 600px) and (max-width: 640px) {
     #avantaj-consulting {
       margin-left: 11%; } }
-  @media screen and (min-width: 512px) and (max-width: 599px) {
-    #avantaj-consulting {
-      margin-left: 13.5%; } }
   @media screen and (min-width: 721px) and (max-width: 767px) {
     #avantaj-consulting {
       margin-left: 8.5%; } }
