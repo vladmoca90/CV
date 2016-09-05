@@ -203,7 +203,7 @@ body,
     #projects-section .projects-texts,
     .skills-list,
     .other-skills-texts {
-      margin-left: 2.5%; } }
+      margin-left: 2%; } }
   @media screen and (min-width: 768px) and (max-width: 799px) {
     #contact-details > figure,
     #personal-information,

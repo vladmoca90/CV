@@ -168,8 +168,8 @@ body,
     margin-left: 4%;
     @include content-margin-left-one;
     @include content-margin-left-two;
-   @media screen and (min-width: 512px) and (max-width: 767px) {
-        margin-left: 2.5%;
+    @media screen and (min-width: 512px) and (max-width: 767px) {
+        margin-left: 2%;
     }
     @media screen and (min-width: 768px) and (max-width: 799px) {
         margin-left: 3%;
