@@ -42,6 +42,14 @@ body,
 .cv-titles {
     font-family: Tahoma;
 }
+#contact-details,
+#education-section,
+#skills-section,
+#projects-section,
+#other-skills-section {
+    overflow: hidden;
+    font-family: Calibri;
+}
 #cv-header {
     max-height: 70px;
     h2 {
@@ -211,14 +219,6 @@ span {
     @media screen and (min-width: 320px) and (max-width: 600px) {
         display: none;
     }
-}
-#contact-details,
-#education-section,
-#skills-section,
-#projects-section,
-#other-skills-section {
-    overflow: hidden;
-    font-family: Calibri;
 }
 #personal-information,
 #education-section,
