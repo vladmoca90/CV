@@ -193,12 +193,9 @@ body,
     }
 }
 #personal-information-details-right {
-    margin-left: 2.5%;
+    margin-left: 2%;
     @media screen and (min-width: 320px) and (max-width: 374px) {
         margin-left: 1%;
-    }
-    @media screen and (min-width: 375px) and (max-width: 383px) {
-        margin-left: 2%;
     }
     @media screen and (min-width: 384px) and (max-width: 433px) {
         margin-left: 1%;
