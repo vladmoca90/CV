@@ -204,7 +204,16 @@ body,
     .skills-list,
     .other-skills-texts {
       margin-left: 2%; } }
-  @media screen and (min-width: 768px) and (max-width: 799px) {
+  @media screen and (min-width: 768px) and (max-width: 899px) {
+    #contact-details > figure,
+    #personal-information,
+    .education-year,
+    .education-institution,
+    #projects-section .projects-texts,
+    .skills-list,
+    .other-skills-texts {
+      margin-left: 2.5%; } }
+  @media screen and (min-width: 900px) and (max-width: 1023px) {
     #contact-details > figure,
     #personal-information,
     .education-year,
@@ -283,6 +292,15 @@ body,
   @media screen and (min-width: 721px) and (max-width: 767px) {
     #avantaj-consulting {
       margin-left: 8.5%; } }
+  @media screen and (min-width: 768px) and (max-width: 799px) {
+    #avantaj-consulting {
+      margin-left: 9.5%; } }
+  @media screen and (min-width: 900px) and (max-width: 1023px) {
+    #avantaj-consulting {
+      margin-left: 9.5%; } }
+  @media screen and (min-width: 800px) and (max-width: 899px) {
+    #avantaj-consulting {
+      margin-left: 9%; } }
 
 #web-design,
 #env-science {
