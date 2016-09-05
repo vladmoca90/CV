@@ -15,8 +15,15 @@ body,
 
 #curriculum-vitae {
   margin: 2% auto;
-  overflow: hidden;
   border: 1px solid #DDD; }
+
+#curriculum-vitae,
+#contact-details,
+#education-section,
+#skills-section,
+#projects-section,
+#other-skills-section {
+  overflow: hidden; }
 
 .nameTitle {
   letter-spacing: 1px;
@@ -37,7 +44,6 @@ body,
 #skills-section,
 #projects-section,
 #other-skills-section {
-  overflow: hidden;
   font-family: Calibri; }
 
 #cv-header {
@@ -91,15 +97,6 @@ body,
 .skills-list,
 .other-skills-texts {
   margin-left: 4%; }
-  @media screen and (min-width: 320px) and (max-width: 383px) {
-    #contact-details > figure,
-    #personal-information,
-    .education-year,
-    .education-institution,
-    #projects-section .projects-texts,
-    .skills-list,
-    .other-skills-texts {
-      margin-left: 2%; } }
   @media screen and (min-width: 384px) and (max-width: 411px) {
     #contact-details > figure,
     #personal-information,
@@ -109,15 +106,6 @@ body,
     .skills-list,
     .other-skills-texts {
       margin-left: 1%; } }
-  @media screen and (min-width: 412px) and (max-width: 511px) {
-    #contact-details > figure,
-    #personal-information,
-    .education-year,
-    .education-institution,
-    #projects-section .projects-texts,
-    .skills-list,
-    .other-skills-texts {
-      margin-left: 2%; } }
   @media screen and (min-width: 721px) and (max-width: 767px) {
     #contact-details > figure,
     #personal-information,
@@ -127,6 +115,24 @@ body,
     .skills-list,
     .other-skills-texts {
       margin-left: 1%; } }
+  @media screen and (min-width: 320px) and (max-width: 383px) {
+    #contact-details > figure,
+    #personal-information,
+    .education-year,
+    .education-institution,
+    #projects-section .projects-texts,
+    .skills-list,
+    .other-skills-texts {
+      margin-left: 2%; } }
+  @media screen and (min-width: 412px) and (max-width: 511px) {
+    #contact-details > figure,
+    #personal-information,
+    .education-year,
+    .education-institution,
+    #projects-section .projects-texts,
+    .skills-list,
+    .other-skills-texts {
+      margin-left: 2%; } }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   #personal-information {
@@ -147,9 +153,6 @@ body,
   @media screen and (min-width: 412px) and (max-width: 433px) {
     #personal-information-details-right {
       margin-left: 1.65%; } }
-  @media screen and (min-width: 434px) and (max-width: 511px) {
-    #personal-information-details-right {
-      margin-left: 2.5%; } }
   @media screen and (min-width: 512px) and (max-width: 599px) {
     #personal-information-details-right {
       margin-left: 3%; } }
@@ -194,12 +197,12 @@ body,
   @media screen and (min-width: 434px) and (max-width: 511px) {
     #avantaj-consulting {
       margin-left: 12.5%; } }
-  @media screen and (min-width: 512px) and (max-width: 599px) {
-    #avantaj-consulting {
-      margin-left: 13.5%; } }
   @media screen and (min-width: 600px) and (max-width: 640px) {
     #avantaj-consulting {
       margin-left: 12.5%; } }
+  @media screen and (min-width: 512px) and (max-width: 599px) {
+    #avantaj-consulting {
+      margin-left: 13.5%; } }
   @media screen and (min-width: 721px) and (max-width: 767px) {
     #avantaj-consulting {
       margin-left: 8.5%; } }

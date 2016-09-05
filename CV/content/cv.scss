@@ -7,6 +7,30 @@ $margin-auto: 0 auto;
     margin: auto;
     float: none;
 }
+@mixin content-margin-left-one {
+    @media screen and (min-width: 384px) and (max-width: 411px) {
+        margin-left: 1%;
+    }
+    @media screen and (min-width: 721px) and (max-width: 767px) {
+        margin-left: 1%;
+    }
+}
+@mixin content-margin-left-two {
+    @media screen and (min-width: 320px) and (max-width: 383px) {
+        margin-left: 2%;
+    }
+    @media screen and (min-width: 412px) and (max-width: 511px) {
+        margin-left: 2%;
+    }
+}
+@mixin avantaj-consulting-margin {
+   @media screen and (min-width: 434px) and (max-width: 511px) {
+        margin-left: 12.5%;
+   }
+   @media screen and (min-width: 600px) and (max-width: 640px) {
+        margin-left: 12.5%;
+   }
+}
 
 body {   
 	padding: 0px;
@@ -25,9 +49,16 @@ body,
 }
 #curriculum-vitae {
     margin: 2% auto;
-    overflow: hidden; 
     border: 1px solid #DDD;
 } 
+#curriculum-vitae,
+#contact-details,
+#education-section,
+#skills-section,
+#projects-section,
+#other-skills-section {
+    overflow: hidden;
+}
 .nameTitle {  
 	letter-spacing: 1px;
 	margin-top: 10px; 
@@ -47,7 +78,6 @@ body,
 #skills-section,
 #projects-section,
 #other-skills-section {
-    overflow: hidden;
     font-family: Calibri;
 }
 #cv-header {
@@ -102,18 +132,8 @@ body,
 .skills-list,
 .other-skills-texts {
     margin-left: 4%;
-    @media screen and (min-width: 320px) and (max-width: 383px) {
-        margin-left: 2%;
-    }
-    @media screen and (min-width: 384px) and (max-width: 411px) {
-        margin-left: 1%;
-    }
-    @media screen and (min-width: 412px) and (max-width: 511px) {
-        margin-left: 2%;
-    }
-    @media screen and (min-width: 721px) and (max-width: 767px) {
-        margin-left: 1%;
-    }
+    @include content-margin-left-one;
+    @include content-margin-left-two;
 }
 #personal-information {
     @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -134,9 +154,6 @@ body,
     }
     @media screen and (min-width: 412px) and (max-width: 433px) {
         margin-left: 1.65%;
-    }
-    @media screen and (min-width: 434px) and (max-width: 511px) {
-        margin-left: 2.5%;
     }
     @media screen and (min-width: 512px) and (max-width: 599px) {
         margin-left: 3%;
@@ -179,14 +196,9 @@ body,
     @media screen and (min-width: 412px) and (max-width: 433px) {
         margin-left: 14.5%;
     }
-    @media screen and (min-width: 434px) and (max-width: 511px) {
-        margin-left: 12.5%;
-    }
+    @include avantaj-consulting-margin;
     @media screen and (min-width: 512px) and (max-width: 599px) {
         margin-left: 13.5%;
-    }
-    @media screen and (min-width: 600px) and (max-width: 640px) {
-        margin-left: 12.5%;
     }
     @media screen and (min-width: 721px) and (max-width: 767px) {
         margin-left: 8.5%;
