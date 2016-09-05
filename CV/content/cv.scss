@@ -8,7 +8,7 @@ $margin-auto: 0 auto;
     float: none;
 }
 @mixin content-margin-left-one {
-    @media screen and (min-width: 384px) and (max-width: 410px) {
+    @media screen and (min-width: 384px) and (max-width: 411px) {
         margin-left: 1%;
     }
     @media screen and (min-width: 721px) and (max-width: 767px) {
@@ -19,17 +19,12 @@ $margin-auto: 0 auto;
     @media screen and (min-width: 320px) and (max-width: 383px) {
         margin-left: 2%;
     }
-    @media screen and (min-width: 411px) and (max-width: 511px) {
+    @media screen and (min-width: 412px) and (max-width: 511px) {
         margin-left: 2%;
     }
 }
 @mixin avantaj-consulting-margin {
-   @media screen and (min-width: 434px) and (max-width: 511px) {
-        margin-left: 12.5%;
-   }
-   @media screen and (min-width: 600px) and (max-width: 640px) {
-        margin-left: 12.5%;
-   }
+  
 }
 
 body {   
@@ -91,15 +86,12 @@ body,
         font-size: 11px;
     }
     @media screen and (min-width: 360px) and (max-width: 383px) {
-        font-size: 12px;
-    }
-    @media screen and (min-width: 384px) and (max-width: 410px) {
         font-size: 13px;
     }
-    @media screen and (min-width: 410px) and (max-width: 433px) {
+    @media screen and (min-width: 384px) and (max-width: 411px) {
         font-size: 14px;
     }
-    @media screen and (min-width: 434px) and (max-width: 511px) {
+    @media screen and (min-width: 412px) and (max-width: 511px) {
         font-size: 15px;
     }
     @media screen and (min-width: 512px) and (max-width: 599px) {
@@ -150,10 +142,10 @@ body,
     @media screen and (min-width: 320px) and (max-width: 383px) {
         font-size: 13px;
     }
-    @media screen and (min-width: 384px) and (max-width: 410px) {
+    @media screen and (min-width: 384px) and (max-width: 411px) {
         font-size: 15px;
     }
-    @media screen and (min-width: 410px) and (max-width: 511px) {
+    @media screen and (min-width: 412px) and (max-width: 511px) {
         font-size: 16px;
     }
 }
@@ -179,6 +171,12 @@ body,
     margin-left: 4%;
     @include content-margin-left-one;
     @include content-margin-left-two;
+   @media screen and (min-width: 512px) and (max-width: 767px) {
+        margin-left: 2.5%;
+    }
+    @media screen and (min-width: 768px) and (max-width: 799px) {
+        margin-left: 3%;
+    }
 }
 #personal-information {
     @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -188,17 +186,14 @@ body,
 }
 #personal-information-details-right {
     margin-left: 2.5%;
-    @media screen and (min-width: 320px) and (max-width: 359px) {
+    @media screen and (min-width: 320px) and (max-width: 374px) {
         margin-left: 1%;
     }
-    @media screen and (min-width: 360px) and (max-width: 374px) {
-        margin-left: 1.3%;
-    }
-    @media screen and (min-width: 375px) and (max-width: 410px) {
+    @media screen and (min-width: 375px) and (max-width: 383px) {
         margin-left: 2%;
     }
-    @media screen and (min-width: 411px) and (max-width: 433px) {
-        margin-left: 1.65%;
+    @media screen and (min-width: 384px) and (max-width: 433px) {
+        margin-left: 1%;
     }
     @media screen and (min-width: 512px) and (max-width: 599px) {
         margin-left: 3%;
@@ -209,10 +204,10 @@ body,
 }
 .icons-margin {
     margin-left: 6px;
-    @media screen and (min-width: 320px) and (max-width: 410px) {
+    @media screen and (min-width: 320px) and (max-width: 411px) {
         margin-left: 4px;
     }
-    @media screen and (min-width: 411px) and (max-width: 512px) {
+    @media screen and (min-width: 412px) and (max-width: 512px) {
         margin-left: 5px;
     }
 }
@@ -238,13 +233,18 @@ body,
     @media screen and (min-width: 320px) and (max-width: 359px) {
         margin-left: 15%;
     }
-    @media screen and (min-width: 360px) and (max-width: 410px) {
+    @media screen and (min-width: 360px) and (max-width: 411px) {
         margin-left: 14%;
     }
-    @media screen and (min-width: 411px) and (max-width: 433px) {
+    @media screen and (min-width: 412px) and (max-width: 433px) {
         margin-left: 14.5%;
     }
-    @include avantaj-consulting-margin;
+    @media screen and (min-width: 434px) and (max-width: 511px) {
+        margin-left: 12.5%;
+    }
+    @media screen and (min-width: 600px) and (max-width: 640px) {
+        margin-left: 11%;
+    }
     @media screen and (min-width: 512px) and (max-width: 599px) {
         margin-left: 13.5%;
     }
