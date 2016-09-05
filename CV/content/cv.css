@@ -168,7 +168,7 @@ body,
     .skills-list,
     .other-skills-texts {
       margin-left: 1%; } }
-  @media screen and (min-width: 721px) and (max-width: 767px) {
+  @media screen and (min-width: 720px) and (max-width: 767px) {
     #contact-details > figure,
     #personal-information,
     .education-year,
@@ -286,7 +286,7 @@ body,
   @media screen and (min-width: 600px) and (max-width: 640px) {
     #avantaj-consulting {
       margin-left: 11%; } }
-  @media screen and (min-width: 721px) and (max-width: 767px) {
+  @media screen and (min-width: 720px) and (max-width: 767px) {
     #avantaj-consulting {
       margin-left: 8.5%; } }
   @media screen and (min-width: 768px) and (max-width: 799px) {
