@@ -5,7 +5,7 @@ body,
 #cv-header h2 {
   margin: 0 auto; }
 
-#curriculumVitae,
+#curriculum-vitae,
 #cv-header,
 #contact-details,
 #cv-middle,
@@ -13,7 +13,7 @@ body,
 #education-section {
   max-width: 750px; }
 
-#curriculumVitae {
+#curriculum-vitae {
   margin: 2% auto;
   overflow: hidden;
   border: 1px solid #DDD; }
@@ -45,7 +45,7 @@ body,
   #cv-header h2 {
     line-height: 70px; }
 
-#curriculumVitae,
+#curriculum-vitae,
 #cv-header,
 #cv-middle,
 #contact-details,
