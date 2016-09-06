@@ -23,14 +23,6 @@ $margin-auto: 0 auto;
         margin-left: 2%;
     }
 }
-@mixin avantaj-consulting-margin {
-     @media screen and (min-width: 768px) and (max-width: 799px) {
-        margin-left: 9%;
-     }
-     @media screen and (min-width: 900px) and (max-width: 1023px) {
-        margin-left: 9%;
-     }
-}
 
 body {   
 	padding: 0px;
@@ -64,8 +56,6 @@ body,
 	margin-top: 10px; 
 }
 .nameTitle,
-#avantaj-consulting p:first-child,
-#university-of-birmingham p:first-child,
 .titles {  
     font-weight: bold;
 }
@@ -155,15 +145,12 @@ body,
     }
 }
 #contact-details>figure,
-#personal-information, 
-.education-year,
-.education-institution {
+#personal-information {
     float: left;
 }
 #contact-details>figure,
 #personal-information,
-.education-year,
-.education-institution,
+#education-section-intitutions,
 #projects-section .projects-texts,
 .skills-list,
 .other-skills-texts {
@@ -218,11 +205,6 @@ body,
         margin-left: 5px;
     }
 }
-.education-institution {
-    @media screen and (min-width: 320px) and (max-width: 412px) {
-        margin-left: 5%;
-    }
-}
 #contact-details>figure {
     @media screen and (min-width: 320px) and (max-width: 767px) {
         @include margin-float-group;
@@ -235,33 +217,23 @@ body,
         display: block;
     }
 } 
-#avantaj-consulting {
-    margin-left: 10.5%;
-    @media screen and (min-width: 320px) and (max-width: 359px) {
-        margin-left: 15%;
-    }
-    @media screen and (min-width: 360px) and (max-width: 411px) {
-        margin-left: 14.5%;
-    }
-    @media screen and (min-width: 412px) and (max-width: 433px) {
-        margin-left: 12.5%;
-    }
-    @media screen and (min-width: 434px) and (max-width: 599px) {
-        margin-left: 11.5%;
-    }
-    @media screen and (min-width: 720px) and (max-width: 767px) {
-        margin-left: 8.5%;
-    }
-    @include avantaj-consulting-margin;
-    @media screen and (min-width: 800px) and (max-width: 899px) {
-        margin-left: 9%;
-    }
+#education-section-intitutions {
+	display: table;
+	border-spacing: 5px;
 }
-#web-design,
-#env-science {
-    margin-top: -7px;
-}
-#env-science,
+			#education-section-left,
+			#education-section-right {
+				display: table-cell;
+			}
+			#education-section-left div,
+			#education-section-middle div,
+			#education-section-right div p {
+				display: table-row;
+			}
+			#education-section-left .education-year:nth-child(2),
+			#education-section-middle>.education-year {
+				visibility: hidden;
+			}
 #projects-section p:nth-child(15) {
     margin-bottom: 0px;
 }
