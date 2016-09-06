@@ -181,9 +181,10 @@ body,
     }
 }
 #personal-information {
-    max-width: 485px;
-    margin-top: 2.5%;
+    max-width: 520px;
+    margin-top: 1.85%;
     display: table;
+    border-spacing: 4px;
     @media screen and (min-width: 480px) and (max-width: 767px) {
         margin: 1% auto;
         float: none;
@@ -192,6 +193,7 @@ body,
 #personal-information-details-left,
 #personal-information-details-right {
     display: table-cell;
+    padding-top: 10px;
     p {
         display: table-row;
     }
