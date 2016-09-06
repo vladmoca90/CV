@@ -139,14 +139,8 @@ body,
     .cv-titles {
       font-size: 16px; } }
 
-#personal-information {
-  max-width: 485px;
-  margin-top: 2.5%; }
-
 #contact-details > figure,
 #personal-information,
-#personal-information-details-left,
-#personal-information-details-right,
 .education-year,
 .education-institution {
   float: left; }
@@ -223,10 +217,21 @@ body,
     .other-skills-texts {
       margin-left: 3%; } }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  #personal-information {
-    margin: 1% auto;
-    float: none; } }
+#personal-information {
+  max-width: 485px;
+  margin-top: 2.5%;
+  display: table; }
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    #personal-information {
+      margin: 1% auto;
+      float: none; } }
+
+#personal-information-details-left,
+#personal-information-details-right {
+  display: table-cell; }
+  #personal-information-details-left p,
+  #personal-information-details-right p {
+    display: table-row; }
 
 #personal-information-details-right {
   margin-left: 2%; }

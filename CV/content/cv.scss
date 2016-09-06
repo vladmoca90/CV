@@ -154,14 +154,8 @@ body,
         font-size: 16px;
     }
 }
-#personal-information {
-    max-width: 485px;
-    margin-top: 2.5%;
-}
 #contact-details>figure,
 #personal-information, 
-#personal-information-details-left,
-#personal-information-details-right,
 .education-year,
 .education-institution {
     float: left;
@@ -187,9 +181,19 @@ body,
     }
 }
 #personal-information {
+    max-width: 485px;
+    margin-top: 2.5%;
+    display: table;
     @media screen and (min-width: 480px) and (max-width: 767px) {
         margin: 1% auto;
         float: none;
+    }
+}
+#personal-information-details-left,
+#personal-information-details-right {
+    display: table-cell;
+    p {
+        display: table-row;
     }
 }
 #personal-information-details-right {
