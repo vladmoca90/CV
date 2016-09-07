@@ -175,6 +175,9 @@ body,
     @media screen and (max-width: 374px) {
         border-spacing: 4px;
     }
+    @media screen and (max-width: 767px) {
+        margin-bottom: -2%;
+    }
     @media screen and (min-width: 480px) and (max-width: 767px) {
         margin: 1% auto;
         float: none;
@@ -219,20 +222,23 @@ body,
     }
 }
 #contact-details>figure {
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @media screen and (max-width: 767px) {
         @include margin-float-group;
     }
 } 
 #contact-details>figure img  {
     max-height: 200px;
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @media screen and (max-width: 767px) {
         @include margin-float-group;
         display: block;
     }
 } 
 #education-section-intitutions {
 	border-spacing: 5px;
-    margin: -2.35% 0px -1% 1.5%;
+    margin: -2.85% 0px -1.5% 1.5%;
+    @media screen and (max-width: 600px) {
+        margin: -4.35% 0px -2.4% 0%;
+    }
 }
 #education-section-left .education-year:nth-child(2),
 #education-section-middle>.education-year {
