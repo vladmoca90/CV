@@ -152,7 +152,6 @@ body,
 }
 #contact-details>figure,
 #personal-information,
-#education-section-intitutions,
 #projects-section .projects-texts,
 .skills-list,
 .other-skills-texts {
@@ -233,8 +232,7 @@ body,
 } 
 #education-section-intitutions {
 	border-spacing: 5px;
-    margin-top: -15px;
-    margin-bottom: -10px;
+    margin: -15px 0px -10px 10px;
 }
 #education-section-left .education-year:nth-child(2),
 #education-section-middle>.education-year {

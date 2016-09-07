@@ -145,7 +145,6 @@ body,
 
 #contact-details > figure,
 #personal-information,
-#education-section-intitutions,
 #projects-section .projects-texts,
 .skills-list,
 .other-skills-texts {
@@ -153,7 +152,6 @@ body,
   @media screen and (min-width: 384px) and (max-width: 411px) {
     #contact-details > figure,
     #personal-information,
-    #education-section-intitutions,
     #projects-section .projects-texts,
     .skills-list,
     .other-skills-texts {
@@ -161,7 +159,6 @@ body,
   @media screen and (min-width: 720px) and (max-width: 767px) {
     #contact-details > figure,
     #personal-information,
-    #education-section-intitutions,
     #projects-section .projects-texts,
     .skills-list,
     .other-skills-texts {
@@ -169,7 +166,6 @@ body,
   @media screen and (min-width: 320px) and (max-width: 383px) {
     #contact-details > figure,
     #personal-information,
-    #education-section-intitutions,
     #projects-section .projects-texts,
     .skills-list,
     .other-skills-texts {
@@ -177,7 +173,6 @@ body,
   @media screen and (min-width: 412px) and (max-width: 511px) {
     #contact-details > figure,
     #personal-information,
-    #education-section-intitutions,
     #projects-section .projects-texts,
     .skills-list,
     .other-skills-texts {
@@ -185,7 +180,6 @@ body,
   @media screen and (min-width: 512px) and (max-width: 767px) {
     #contact-details > figure,
     #personal-information,
-    #education-section-intitutions,
     #projects-section .projects-texts,
     .skills-list,
     .other-skills-texts {
@@ -193,7 +187,6 @@ body,
   @media screen and (min-width: 768px) and (max-width: 899px) {
     #contact-details > figure,
     #personal-information,
-    #education-section-intitutions,
     #projects-section .projects-texts,
     .skills-list,
     .other-skills-texts {
@@ -201,7 +194,6 @@ body,
   @media screen and (min-width: 900px) and (max-width: 1023px) {
     #contact-details > figure,
     #personal-information,
-    #education-section-intitutions,
     #projects-section .projects-texts,
     .skills-list,
     .other-skills-texts {
@@ -272,8 +264,7 @@ body,
 
 #education-section-intitutions {
   border-spacing: 5px;
-  margin-top: -15px;
-  margin-bottom: -10px; }
+  margin: -15px 0px -10px 10px; }
 
 #education-section-left .education-year:nth-child(2),
 #education-section-middle > .education-year {
