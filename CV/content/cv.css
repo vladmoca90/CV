@@ -208,7 +208,7 @@ body,
       border-spacing: 4px; } }
   @media screen and (max-width: 767px) {
     #personal-information {
-      margin-bottom: -2.15%; } }
+      margin: 0.5% 0% -2.15% 0%; } }
   @media screen and (min-width: 480px) and (max-width: 767px) {
     #personal-information {
       margin: 1% auto;
@@ -267,7 +267,7 @@ body,
 
 #education-section-intitutions {
   border-spacing: 5px;
-  margin: -2.85% 0px -1.5% 1.5%; }
+  margin: -2.85% 0% -1.5% 1.5%; }
   @media screen and (max-width: 600px) {
     #education-section-intitutions {
       margin: -5% 0px -3% 0%; } }
