@@ -35,7 +35,6 @@ body,
 #cv-header,
 #contact-details, 
 #cv-middle,
-#cv-footer,
 #education-section {
     max-width: 750px; 
 }
@@ -116,8 +115,7 @@ body,
 #education-section,
 #skills-section,
 #projects-section,
-#other-skills-section 
-#cv-footer {
+#other-skills-section {
     width: $max-width;
 }
 #cv-header,
@@ -127,7 +125,6 @@ body,
 #cv-header,
 #contact-details, 
 #cv-middle,
-#cv-footer,
 #education-section {
 	margin: auto;
 }
