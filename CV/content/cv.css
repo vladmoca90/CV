@@ -282,7 +282,8 @@ body,
     .education-year p {
       margin: 8px; } }
 
-#projects-section p:nth-child(15) {
+#projects-section p:nth-child(15),
+#skills-section .skills-list {
   margin-bottom: 0px; }
 
 .in-progress {
@@ -294,14 +295,12 @@ body,
   .other-skills-texts .icons {
     display: none; } }
 
-#skills-section .skills-list {
-  margin-bottom: 0px; }
-  #skills-section .skills-list li {
-    margin-top: 1.5%; }
-    #skills-section .skills-list li span:first-child {
-      position: relative;
-      top: 3px; }
-      @media screen and (min-width: 320px) and (max-width: 411px) {
-        #skills-section .skills-list li span:first-child {
-          top: 1px; } }
+#skills-section .skills-list li {
+  margin-top: 1.5%; }
+  #skills-section .skills-list li span:first-child {
+    position: relative;
+    top: 3px; }
+    @media screen and (min-width: 320px) and (max-width: 411px) {
+      #skills-section .skills-list li span:first-child {
+        top: 1px; } }
 
