@@ -291,6 +291,7 @@ body,
   margin-bottom: 0px; }
 
 .in-progress {
+  margin-left: 4px;
   font-style: italic;
   font-weight: normal; }
 
