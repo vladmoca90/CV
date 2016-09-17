@@ -237,8 +237,12 @@ body,
     #personal-information-details-right {
       margin-left: 3%; } }
 
-.icons {
+.icons,
+.icons-projects {
   color: #304153; }
+
+.icons-projects {
+  margin-right: 4px; }
 
 .icons-margin {
   margin-left: 6px; }
