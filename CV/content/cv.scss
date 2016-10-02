@@ -210,6 +210,9 @@ body,
 .icons,
 .icons-projects {
     color: #304153;
+    @media screen and (max-width: 434px) {
+        display: none;
+    }
 }
 .icons-projects {
     margin-right: 4px;
