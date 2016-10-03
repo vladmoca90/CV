@@ -194,7 +194,6 @@ body,
 #personal-information-details-left p,
 #personal-information-details-right p,
 #education-section-left div,
-#education-section-middle div,
 #education-section-right div p {
     display: table-row;
 }
@@ -245,8 +244,7 @@ body,
         margin: -5% 0px -3% 0%;
     }
 }
-#education-section-left .education-year:nth-child(2),
-#education-section-middle>.education-year {
+#education-section-left .education-year:nth-child(2) {
     visibility: hidden;
 }
 .education-year p {
