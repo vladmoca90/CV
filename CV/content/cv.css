@@ -259,10 +259,10 @@ body,
 
 .icons-margin {
   margin-left: 6px; }
-  @media screen and (min-width: 320px) and (max-width: 411px) {
+  @media screen and (max-width: 434px) {
     .icons-margin {
-      margin-left: 4px; } }
-  @media screen and (min-width: 412px) and (max-width: 512px) {
+      margin-left: 0px; } }
+  @media screen and (min-width: 435px) and (max-width: 512px) {
     .icons-margin {
       margin-left: 5px; } }
 
