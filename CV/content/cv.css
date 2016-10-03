@@ -66,21 +66,21 @@ body,
     #projects-section .projects-texts,
     .other-skills-texts {
       font-size: 13px; } }
-  @media screen and (min-width: 375px) and (max-width: 383px) {
+  @media screen and (min-width: 375px) and (max-width: 384px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
       font-size: 14px; } }
-  @media screen and (min-width: 384px) and (max-width: 411px) {
+  @media screen and (min-width: 385px) and (max-width: 412px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
       font-size: 15px; } }
-  @media screen and (min-width: 412px) and (max-width: 511px) {
+  @media screen and (min-width: 413px) and (max-width: 511px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
@@ -210,7 +210,7 @@ body,
   @media screen and (max-width: 374px) {
     #personal-information {
       border-spacing: 2px; } }
-  @media screen and (max-width: 375px) and (max-width: 412px) {
+  @media screen and (min-width: 375px) and (max-width: 412px) {
     #personal-information {
       border-spacing: 3px; } }
   @media screen and (max-width: 767px) {
