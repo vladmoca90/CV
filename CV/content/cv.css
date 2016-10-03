@@ -65,7 +65,7 @@ body,
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
-      font-size: 12px; } }
+      font-size: 13px; } }
   @media screen and (min-width: 384px) and (max-width: 411px) {
     #personal-information,
     #education-section,
