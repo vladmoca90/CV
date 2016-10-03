@@ -282,9 +282,6 @@ body,
 #education-section-intitutions {
   border-spacing: 5px;
   margin: -2.85% 0% -1.5% 1.5%; }
-  @media screen and (max-width: 600px) {
-    #education-section-intitutions {
-      margin: -5% 0px -3% 0%; } }
 
 #education-section-left .education-year:nth-child(2) {
   visibility: hidden; }
