@@ -59,20 +59,27 @@ body,
     #projects-section .projects-texts,
     .other-skills-texts {
       font-size: 12px; } }
-  @media screen and (min-width: 360px) and (max-width: 383px) {
+  @media screen and (min-width: 360px) and (max-width: 374px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
       font-size: 13px; } }
+  @media screen and (min-width: 375px) and (max-width: 383px) {
+    #personal-information,
+    #education-section,
+    #skills-section ul > li,
+    #projects-section .projects-texts,
+    .other-skills-texts {
+      font-size: 14px; } }
   @media screen and (min-width: 384px) and (max-width: 411px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
-      font-size: 13px; } }
+      font-size: 14px; } }
   @media screen and (min-width: 412px) and (max-width: 511px) {
     #personal-information,
     #education-section,
