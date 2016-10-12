@@ -278,9 +278,6 @@ body,
   border-spacing: 5px;
   margin: -2.85% 0% -1.5% 1.5%; }
 
-#education-section-left .education-year:nth-child(2) {
-  visibility: hidden; }
-
 .education-year p {
   margin: 10px; }
   @media screen and (min-width: 320px) and (max-width: 383px) {
