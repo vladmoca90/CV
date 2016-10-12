@@ -282,15 +282,6 @@ body,
       float: none;
       display: block; } }
 
-.education-year p {
-  margin: 10px; }
-  @media screen and (min-width: 320px) and (max-width: 383px) {
-    .education-year p {
-      margin: 7px; } }
-  @media screen and (min-width: 384px) and (max-width: 433px) {
-    .education-year p {
-      margin: 8px; } }
-
 #projects-section p:nth-child(15),
 #skills-section .skills-list {
   margin-bottom: 0px; }
