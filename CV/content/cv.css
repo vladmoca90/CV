@@ -274,10 +274,6 @@ body,
       float: none;
       display: block; } }
 
-#education-section-intitutions {
-  border-spacing: 5px;
-  margin: -2.85% 0% -1.5% 1.5%; }
-
 .education-year p {
   margin: 10px; }
   @media screen and (min-width: 320px) and (max-width: 383px) {
