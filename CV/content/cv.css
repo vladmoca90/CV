@@ -148,65 +148,65 @@ body,
   float: left; }
 
 #contact-details > figure,
-#education-section-intitutions,
 #personal-information,
 #projects-section .projects-texts,
+#education-section-intitutions,
 .skills-list,
 .other-skills-texts {
   margin-left: 4%; }
   @media screen and (min-width: 384px) and (max-width: 411px) {
     #contact-details > figure,
-    #education-section-intitutions,
     #personal-information,
     #projects-section .projects-texts,
+    #education-section-intitutions,
     .skills-list,
     .other-skills-texts {
       margin-left: 1%; } }
   @media screen and (min-width: 720px) and (max-width: 767px) {
     #contact-details > figure,
-    #education-section-intitutions,
     #personal-information,
     #projects-section .projects-texts,
+    #education-section-intitutions,
     .skills-list,
     .other-skills-texts {
       margin-left: 1%; } }
   @media screen and (min-width: 320px) and (max-width: 383px) {
     #contact-details > figure,
-    #education-section-intitutions,
     #personal-information,
     #projects-section .projects-texts,
+    #education-section-intitutions,
     .skills-list,
     .other-skills-texts {
       margin-left: 2%; } }
   @media screen and (min-width: 412px) and (max-width: 511px) {
     #contact-details > figure,
-    #education-section-intitutions,
     #personal-information,
     #projects-section .projects-texts,
+    #education-section-intitutions,
     .skills-list,
     .other-skills-texts {
       margin-left: 2%; } }
   @media screen and (min-width: 512px) and (max-width: 767px) {
     #contact-details > figure,
-    #education-section-intitutions,
     #personal-information,
     #projects-section .projects-texts,
+    #education-section-intitutions,
     .skills-list,
     .other-skills-texts {
       margin-left: 2%; } }
   @media screen and (min-width: 768px) and (max-width: 899px) {
     #contact-details > figure,
-    #education-section-intitutions,
     #personal-information,
     #projects-section .projects-texts,
+    #education-section-intitutions,
     .skills-list,
     .other-skills-texts {
       margin-left: 2.5%; } }
   @media screen and (min-width: 900px) and (max-width: 1023px) {
     #contact-details > figure,
-    #education-section-intitutions,
     #personal-information,
     #projects-section .projects-texts,
+    #education-section-intitutions,
     .skills-list,
     .other-skills-texts {
       margin-left: 3%; } }
