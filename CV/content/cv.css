@@ -222,6 +222,9 @@ body,
 
 .avantaj-consulting-education {
   margin-left: 12%; }
+  @media screen and (min-width: 320px) and (max-width: 383px) {
+    .avantaj-consulting-education {
+      margin-left: 15%; } }
 
 .university-education {
   margin-left: 5%; }
