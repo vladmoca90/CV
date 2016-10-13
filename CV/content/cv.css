@@ -157,8 +157,6 @@ body,
 #personal-information,
 #projects-section .projects-texts,
 #education-section-intitutions,
-.avantaj-consulting-education,
-.university-education,
 .skills-list,
 .other-skills-texts {
   margin-left: 4%; }
@@ -167,8 +165,6 @@ body,
     #personal-information,
     #projects-section .projects-texts,
     #education-section-intitutions,
-    .avantaj-consulting-education,
-    .university-education,
     .skills-list,
     .other-skills-texts {
       margin-left: 1%; } }
@@ -177,8 +173,6 @@ body,
     #personal-information,
     #projects-section .projects-texts,
     #education-section-intitutions,
-    .avantaj-consulting-education,
-    .university-education,
     .skills-list,
     .other-skills-texts {
       margin-left: 1%; } }
@@ -187,8 +181,6 @@ body,
     #personal-information,
     #projects-section .projects-texts,
     #education-section-intitutions,
-    .avantaj-consulting-education,
-    .university-education,
     .skills-list,
     .other-skills-texts {
       margin-left: 2%; } }
@@ -197,8 +189,6 @@ body,
     #personal-information,
     #projects-section .projects-texts,
     #education-section-intitutions,
-    .avantaj-consulting-education,
-    .university-education,
     .skills-list,
     .other-skills-texts {
       margin-left: 2%; } }
@@ -207,8 +197,6 @@ body,
     #personal-information,
     #projects-section .projects-texts,
     #education-section-intitutions,
-    .avantaj-consulting-education,
-    .university-education,
     .skills-list,
     .other-skills-texts {
       margin-left: 2%; } }
@@ -217,8 +205,6 @@ body,
     #personal-information,
     #projects-section .projects-texts,
     #education-section-intitutions,
-    .avantaj-consulting-education,
-    .university-education,
     .skills-list,
     .other-skills-texts {
       margin-left: 2.5%; } }
@@ -227,11 +213,15 @@ body,
     #personal-information,
     #projects-section .projects-texts,
     #education-section-intitutions,
-    .avantaj-consulting-education,
-    .university-education,
     .skills-list,
     .other-skills-texts {
       margin-left: 3%; } }
+
+.avantaj-consulting-education {
+  margin-left: 12%; }
+
+.university-education {
+  margin-left: 5%; }
 
 #avantaj-consulting-container,
 #university-container {

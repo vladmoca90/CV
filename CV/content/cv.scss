@@ -162,8 +162,6 @@ body,
 #personal-information,
 #projects-section .projects-texts,
 #education-section-intitutions,
-.avantaj-consulting-education,
-.university-education,
 .skills-list,
 .other-skills-texts {
     margin-left: 4%;
@@ -178,6 +176,12 @@ body,
     @media screen and (min-width: 900px) and (max-width: 1023px) {
         margin-left: 3%;
     }
+}
+.avantaj-consulting-education {
+    margin-left: 12%;
+}
+.university-education {
+    margin-left: 5%;
 }
 #avantaj-consulting-container,
 #university-container {
