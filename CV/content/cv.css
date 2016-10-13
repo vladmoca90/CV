@@ -2,7 +2,7 @@
   padding: 0px; }
 
 body,
-#cv-header h2 {
+#cv-header > h2 {
   margin: 0 auto; }
 
 #curriculum-vitae,
