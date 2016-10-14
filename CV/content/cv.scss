@@ -4,7 +4,7 @@ $main-font: Tahoma;
 $heading-font: Calibri;
 $white: #FFFFFF;
 $black: #000000;
-$margin-auto: 0 auto;
+$zero-auto: 0 auto;
 
 @mixin margin-float-group {
     margin: auto;
@@ -32,7 +32,7 @@ body {
 }
 body, 
 #cv-header>h2 {
-    margin: $margin-auto;
+    margin: $zero-auto;
 }
 #curriculum-vitae,
 #cv-header,
