@@ -256,7 +256,7 @@ body,
       margin-left: 3%; } }
 
 #education-section {
-  margin-bottom: -1.5%; }
+  margin-bottom: -1.8%; }
 
 .avantaj-consulting-education {
   margin-left: 12%; }
@@ -278,12 +278,13 @@ body,
   clear: left; }
 
 @media screen and (max-width: 599px) {
-  .projects-links::selection {
-    content: "Personal Project"; } }
-
-@media screen and (max-width: 599px) {
   .projects-links {
     display: none; } }
+
+@media screen and (max-width: 599px) {
+  .projects-links::selection {
+    display: inline;
+    content: "Personal Project"; } }
 
 .icons,
 .icons-projects {
