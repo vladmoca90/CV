@@ -237,6 +237,11 @@ body,
 #university-container {
     clear: left;
 }
+.projects-links {
+    &:after {
+        content: "";
+    }
+}
 .icons,
 .icons-projects {
     color: #304153;
