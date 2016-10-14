@@ -255,6 +255,19 @@ body,
     #personal-information-details-right {
       margin-left: 3%; } }
 
+@media screen and (max-width: 767px) {
+  #contact-details > figure {
+    margin: auto;
+    float: none; } }
+
+#contact-details > figure img {
+  max-height: 200px; }
+  @media screen and (max-width: 767px) {
+    #contact-details > figure img {
+      margin: auto;
+      float: none;
+      display: block; } }
+
 #education-section {
   margin-bottom: -1.8%; }
 
@@ -305,19 +318,6 @@ body,
   @media screen and (min-width: 435px) and (max-width: 512px) {
     .icons-margin {
       margin-left: 5px; } }
-
-@media screen and (max-width: 767px) {
-  #contact-details > figure {
-    margin: auto;
-    float: none; } }
-
-#contact-details > figure img {
-  max-height: 200px; }
-  @media screen and (max-width: 767px) {
-    #contact-details > figure img {
-      margin: auto;
-      float: none;
-      display: block; } }
 
 #projects-section p:nth-child(15),
 #skills-section .skills-list {

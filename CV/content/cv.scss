@@ -216,6 +216,18 @@ body,
         margin-left: 3%;
     }
 }
+#contact-details>figure {
+    @media screen and (max-width: 767px) {
+        @include margin-float-group;
+    }
+} 
+#contact-details>figure img  {
+    max-height: 200px;
+    @media screen and (max-width: 767px) {
+        @include margin-float-group;
+        display: block;
+    }
+}
 #education-section {
     margin-bottom: -1.8%;
 }
@@ -270,18 +282,6 @@ body,
     }
     @media screen and (min-width: 435px) and (max-width: 512px) {
         margin-left: 5px;
-    }
-}
-#contact-details>figure {
-    @media screen and (max-width: 767px) {
-        @include margin-float-group;
-    }
-} 
-#contact-details>figure img  {
-    max-height: 200px;
-    @media screen and (max-width: 767px) {
-        @include margin-float-group;
-        display: block;
     }
 }
 #projects-section p:nth-child(15),
