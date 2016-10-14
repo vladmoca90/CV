@@ -238,8 +238,10 @@ body,
     clear: left;
 }
 .projects-links {
-    &:after {
-        content: "";
+    &::content {
+        @media screen and (max-width: 599px) {
+            content: "Personal Project";
+        }
     }
 }
 .icons,

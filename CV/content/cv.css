@@ -277,8 +277,9 @@ body,
 #university-container {
   clear: left; }
 
-.projects-links:after {
-  content: ""; }
+@media screen and (max-width: 599px) {
+  .projects-links::content {
+    content: "Personal Project"; } }
 
 .icons,
 .icons-projects {
