@@ -241,11 +241,10 @@ body,
     @media screen and (max-width: 599px) {
         display: none;
     }
-    &::selection {
-        @media screen and (max-width: 599px) {
-            display: inline;
-            content: "Personal Project";
-        }
+}
+.replaced-projects-links {
+    @media screen and (min-width: 600px) {
+        display: none;
     }
 }
 .icons,

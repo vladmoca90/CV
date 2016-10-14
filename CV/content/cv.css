@@ -281,10 +281,9 @@ body,
   .projects-links {
     display: none; } }
 
-@media screen and (max-width: 599px) {
-  .projects-links::selection {
-    display: inline;
-    content: "Personal Project"; } }
+@media screen and (min-width: 600px) {
+  .replaced-projects-links {
+    display: none; } }
 
 .icons,
 .icons-projects {
