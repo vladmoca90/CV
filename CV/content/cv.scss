@@ -26,6 +26,11 @@ $zero-auto: 0 auto;
         margin-left: 2%;
     }
 }
+@mixin max-width-no-display {
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+}
 
 body {   
     padding: 0px;
@@ -240,9 +245,7 @@ body,
         margin-left: 13.5%;
     }
     .final-marks {
-        @media screen and (max-width: 480px) {
-            display: none;
-        }
+        @include max-width-no-display;
     }
 }
 .university-education {
@@ -273,9 +276,7 @@ body,
 .icons,
 .icons-projects {
     color: #304153;
-    @media screen and (max-width: 480px) {
-        display: none;
-    }
+    @include max-width-no-display;
 }
 .icons-projects {
     margin-right: 4px;
