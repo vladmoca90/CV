@@ -187,11 +187,8 @@ body,
     max-width: 520px;
     margin-top: 2.2%;
     border-spacing: 6px;
-    @media screen and (max-width: 374px) {
+    @media screen and (max-width: 480px) {
         border-spacing: 2px;
-    }
-    @media screen and (min-width: 375px) and (max-width: 412px) {
-        border-spacing: 3px;
     }
     @media screen and (max-width: 767px) {
         margin: 0.5% 0% -2.15% 0%;
