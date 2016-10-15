@@ -220,6 +220,16 @@ body,
     @media screen and (min-width: 512px) and (max-width: 599px) {
         margin-left: 3%;
     }
+    .linkedin-link {
+        @media screen and (max-width: 480px) {
+            display: none;
+        }
+    }
+    .replaced-linkedin-link {
+        @media screen and (min-width: 481px) {
+            display: none;
+        }
+    }
 }
 #contact-details>figure {
     @media screen and (max-width: 767px) {

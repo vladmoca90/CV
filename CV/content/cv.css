@@ -254,6 +254,12 @@ body,
   @media screen and (min-width: 512px) and (max-width: 599px) {
     #personal-information-details-right {
       margin-left: 3%; } }
+  @media screen and (max-width: 480px) {
+    #personal-information-details-right .linkedin-link {
+      display: none; } }
+  @media screen and (min-width: 481px) {
+    #personal-information-details-right .replaced-linkedin-link {
+      display: none; } }
 
 @media screen and (max-width: 767px) {
   #contact-details > figure {
