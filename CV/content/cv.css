@@ -259,14 +259,14 @@ body,
       display: none; } }
 
 @media screen and (max-width: 767px) {
-  #contact-details > figure {
+  #contact-details figure {
     margin: auto;
     float: none; } }
 
-#contact-details > figure img {
+#contact-details figure img {
   max-height: 200px; }
   @media screen and (max-width: 767px) {
-    #contact-details > figure img {
+    #contact-details figure img {
       margin: auto;
       float: none;
       display: block; } }

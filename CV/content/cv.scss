@@ -228,16 +228,18 @@ body,
         }
     }
 }
-#contact-details>figure {
-    @media screen and (max-width: 767px) {
-        @include margin-float-group;
-    }
-} 
-#contact-details>figure img  {
-    max-height: 200px;
-    @media screen and (max-width: 767px) {
-        @include margin-float-group;
-        display: block;
+#contact-details {
+    figure {
+        @media screen and (max-width: 767px) {
+            @include margin-float-group;
+        }
+        img  {
+            max-height: 200px;
+            @media screen and (max-width: 767px) {
+                @include margin-float-group;
+                display: block;
+            }
+        }
     }
 }
 #education-section {
