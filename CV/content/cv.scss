@@ -276,12 +276,12 @@ body,
     .projects-texts {
         margin-right: 2%;
         .projects-links {
-            @media screen and (max-width: 640px) {
+            @media screen and (max-width: 650px) {
                 display: none;
             }
         }
         .replaced-projects-links {
-            @media screen and (min-width: 641px) {
+            @media screen and (min-width: 651px) {
                 display: none;
             }
         }

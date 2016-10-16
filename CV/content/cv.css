@@ -300,10 +300,10 @@ body,
 
 #projects-section .projects-texts {
   margin-right: 2%; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 650px) {
     #projects-section .projects-texts .projects-links {
       display: none; } }
-  @media screen and (min-width: 641px) {
+  @media screen and (min-width: 651px) {
     #projects-section .projects-texts .replaced-projects-links {
       display: none; } }
 
