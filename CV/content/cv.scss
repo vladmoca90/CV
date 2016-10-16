@@ -132,7 +132,7 @@ body,
     width: $max-width;
 }
 #cv-header,
-#contact-details figure>img {
+#contact-details>#vlad-mocanu-image>img {
     height: $max-height;
 }
 #cv-header,
@@ -156,7 +156,7 @@ body,
         font-size: 16px;
     }
 }
-#contact-details>figure,
+#contact-details>#vlad-mocanu-image,
 #personal-information,
 .avantaj-consulting-year,
 .avantaj-consulting-education,
@@ -164,7 +164,7 @@ body,
 .university-education {
     float: left;
 }
-#contact-details>figure,
+#contact-details>#vlad-mocanu-image,
 #personal-information,
 #projects-section .projects-texts,
 #education-section-intitutions,
@@ -229,7 +229,7 @@ body,
     }
 }
 #contact-details {
-    figure {
+        #vlad-mocanu-image {
         @media screen and (max-width: 767px) {
             @include margin-float-group;
         }
