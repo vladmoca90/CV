@@ -214,6 +214,9 @@ body,
   max-width: 520px;
   margin-top: 2.2%;
   border-spacing: 6px; }
+  @media screen and (min-width: 320px) and (max-width: 359px) {
+    #personal-information {
+      margin-left: 1%; } }
   @media screen and (max-width: 480px) {
     #personal-information {
       border-spacing: 2px; } }
