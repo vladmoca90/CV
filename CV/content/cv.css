@@ -166,14 +166,6 @@ body,
     .skills-list,
     .other-skills-texts {
       margin-left: 2%; } }
-  @media screen and (min-width: 512px) and (max-width: 767px) {
-    #contact-details > #vlad-mocanu-image,
-    #personal-information,
-    #projects-section .projects-texts,
-    #education-section-intitutions,
-    .skills-list,
-    .other-skills-texts {
-      margin-left: 2%; } }
   @media screen and (min-width: 768px) and (max-width: 899px) {
     #contact-details > #vlad-mocanu-image,
     #personal-information,
