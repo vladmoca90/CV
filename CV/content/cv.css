@@ -287,6 +287,9 @@ body,
   @media screen and (min-width: 600px) and (max-width: 640px) {
     .avantaj-consulting-education {
       margin-left: 13.5%; } }
+  @media screen and (min-width: 641px) and (max-width: 767px) {
+    .avantaj-consulting-education {
+      margin-left: 13%; } }
   @media screen and (max-width: 480px) {
     .avantaj-consulting-education .final-marks {
       display: none; } }
