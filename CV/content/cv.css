@@ -66,14 +66,14 @@ body,
     #projects-section .projects-texts,
     .other-skills-texts {
       font-size: 14px; } }
-  @media screen and (min-width: 385px) and (max-width: 412px) {
+  @media screen and (min-width: 385px) and (max-width: 411px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     #projects-section .projects-texts,
     .other-skills-texts {
       font-size: 15px; } }
-  @media screen and (min-width: 413px) and (max-width: 511px) {
+  @media screen and (min-width: 412px) and (max-width: 511px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
