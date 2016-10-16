@@ -150,7 +150,7 @@ body,
 .skills-list,
 .other-skills-texts {
   margin-left: 4%; }
-  @media screen and (min-width: 384px) and (max-width: 411px) {
+  @media screen and (min-width: 320px) and (max-width: 511px) {
     #contact-details > #vlad-mocanu-image,
     #personal-information,
     #projects-section .projects-texts,
@@ -158,23 +158,7 @@ body,
     .skills-list,
     .other-skills-texts {
       margin-left: 1%; } }
-  @media screen and (min-width: 720px) and (max-width: 767px) {
-    #contact-details > #vlad-mocanu-image,
-    #personal-information,
-    #projects-section .projects-texts,
-    #education-section-intitutions,
-    .skills-list,
-    .other-skills-texts {
-      margin-left: 1%; } }
-  @media screen and (min-width: 320px) and (max-width: 383px) {
-    #contact-details > #vlad-mocanu-image,
-    #personal-information,
-    #projects-section .projects-texts,
-    #education-section-intitutions,
-    .skills-list,
-    .other-skills-texts {
-      margin-left: 2%; } }
-  @media screen and (min-width: 412px) and (max-width: 511px) {
+  @media screen and (min-width: 512px) and (max-width: 767px) {
     #contact-details > #vlad-mocanu-image,
     #personal-information,
     #projects-section .projects-texts,

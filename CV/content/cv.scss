@@ -10,19 +10,11 @@ $zero-auto: 0 auto;
     margin: auto;
     float: none;
 }
-@mixin content-margin-left-one {
-    @media screen and (min-width: 384px) and (max-width: 411px) {
+@mixin content-margin-left {
+    @media screen and (min-width: 320px) and (max-width: 511px) {
         margin-left: 1%;
     }
-    @media screen and (min-width: 720px) and (max-width: 767px) {
-        margin-left: 1%;
-    }
-}
-@mixin content-margin-left-two {
-    @media screen and (min-width: 320px) and (max-width: 383px) {
-        margin-left: 2%;
-    }
-    @media screen and (min-width: 412px) and (max-width: 511px) {
+    @media screen and (min-width: 512px) and (max-width: 767px) {
         margin-left: 2%;
     }
 }
@@ -165,8 +157,7 @@ body,
 .skills-list,
 .other-skills-texts {
     margin-left: 4%;
-    @include content-margin-left-one;
-    @include content-margin-left-two;
+    @include content-margin-left;
     @media screen and (min-width: 512px) and (max-width: 767px) {
         margin-left: 2%;
     }
