@@ -28,17 +28,17 @@ body,
 #skills-section {
   overflow: auto; }
 
-.vlad-mocanu-name {
+.vlad-mocanu-title {
   letter-spacing: 1px;
   margin-top: 10px; }
 
-.vlad-mocanu-name,
+.vlad-mocanu-title,
 .projects-titles,
 #avantaj-consulting,
 #univ-of-birmingham {
   font-weight: bold; }
 
-.vlad-mocanu-name,
+.vlad-mocanu-title,
 .cv-titles {
   font-family: Tahoma; }
 
