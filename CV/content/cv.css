@@ -224,10 +224,8 @@ body,
       float: none;
       display: block; } }
 
-#education-section {
-  margin-bottom: -1.75%; }
-  #education-section #education-section-institutions p {
-    margin: 5px 0px; }
+#education-section-institutions p {
+  margin: 5px 0px; }
 
 .avantaj-consulting-education {
   margin-left: 12%; }
