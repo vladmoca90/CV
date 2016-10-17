@@ -254,6 +254,8 @@ body,
 
 .university-education {
   margin-left: 5%; }
+  .university-education p:nth-child(2) {
+    margin-bottom: 0px; }
 
 #avantaj-consulting-container,
 #university-container {
