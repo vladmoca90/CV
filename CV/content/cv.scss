@@ -59,7 +59,7 @@ body,
 #personal-information,
 #education-section,
 #skills-section ul>li,
-#projects-section .projects-texts,
+.projects-texts,
 .other-skills-texts,
 .icons {
     color: $black;
@@ -67,7 +67,7 @@ body,
 #personal-information,
 #education-section,
 #skills-section ul>li,
-#projects-section .projects-texts,
+.projects-texts,
 .other-skills-texts {
     font-size: 18px;
     @media screen and (min-width: 320px) and (max-width: 359px) {
@@ -144,7 +144,7 @@ body,
 }
 #contact-details>#vlad-mocanu-image,
 #personal-information,
-#projects-section .projects-texts,
+.projects-texts,
 #education-section-intitutions,
 .skills-list,
 .other-skills-texts {
