@@ -290,14 +290,14 @@ body,
     .icons-margin {
       margin-left: 5px; } }
 
-#projects-section p:nth-child(15),
-#skills-section .skills-list {
-  margin-bottom: 0px; }
-
 .in-progress {
   margin-left: 4px;
   font-style: italic;
   font-weight: normal; }
+
+#projects-section p:nth-child(15),
+#skills-section .skills-list {
+  margin-bottom: 0px; }
 
 @media screen and (min-width: 320px) and (max-width: 600px) {
   .projects-texts .icons {
