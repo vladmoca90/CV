@@ -24,6 +24,10 @@ body,
 #other-skills-section {
   clear: left; }
 
+#education-section,
+#skills-section {
+  overflow: auto; }
+
 .nameTitle {
   letter-spacing: 1px;
   margin-top: 10px; }
