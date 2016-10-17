@@ -160,6 +160,7 @@ body,
     }
 }
 #personal-information {
+    display: table;
     max-width: 520px;
     margin-top: 2.2%;
     border-spacing: 6px;
@@ -176,9 +177,6 @@ body,
         margin: -1.5% auto;
         float: none;
     }
-}
-#personal-information {
-	display: table;
 }
 #personal-information-details-left,
 #personal-information-details-right {
