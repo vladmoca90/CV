@@ -44,7 +44,7 @@ body,
 #skills-section,
 #projects-section,
 #other-skills-section {
-    overflow: hidden;
+    clear: left;
 }
 .nameTitle {  
 	letter-spacing: 1px;
