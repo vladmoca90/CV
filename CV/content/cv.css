@@ -269,6 +269,9 @@ body,
   @media screen and (min-width: 651px) {
     #projects-section .projects-texts .replaced-projects-links {
       display: none; } }
+  @media screen and (min-width: 320px) and (max-width: 600px) {
+    #projects-section .projects-texts .icons {
+      display: none; } }
 
 .icons,
 .icons-projects {
@@ -298,10 +301,6 @@ body,
 #projects-section p:nth-child(15),
 #skills-section .skills-list {
   margin-bottom: 0px; }
-
-@media screen and (min-width: 320px) and (max-width: 600px) {
-  .projects-texts .icons {
-    display: none; } }
 
 #skills-section .skills-list li {
   margin-top: 1.5%; }

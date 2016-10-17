@@ -270,6 +270,11 @@ body,
                 display: none;
             }
         }
+        .icons {
+            @media screen and (min-width: 320px) and (max-width: 600px) {
+                display: none;
+            }
+        }
     }
 } 
 .icons,
@@ -297,11 +302,6 @@ body,
 #projects-section p:nth-child(15),
 #skills-section .skills-list {
     margin-bottom: 0px;
-}
-.projects-texts .icons {
-    @media screen and (min-width: 320px) and (max-width: 600px) {
-        display: none;
-    }
 }
 #skills-section .skills-list {
     li {
