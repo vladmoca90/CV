@@ -60,15 +60,13 @@ body,
 #education-section,
 #skills-section ul>li,
 .projects-texts,
-.other-skills-texts,
 .icons {
     color: $black;
 }
 #personal-information,
 #education-section,
 #skills-section ul>li,
-.projects-texts,
-.other-skills-texts {
+.projects-texts {
     font-size: 18px;
     @media screen and (min-width: 320px) and (max-width: 359px) {
         font-size: 13px;
@@ -146,8 +144,7 @@ body,
 #personal-information,
 .projects-texts,
 #education-section-intitutions,
-.skills-list,
-.other-skills-texts {
+.skills-list {
     margin-left: 4%;
     @media screen and (min-width: 320px) and (max-width: 511px) {
         margin-left: 1%;
@@ -301,8 +298,7 @@ body,
     font-style: italic;
     font-weight: normal;
 }
-.projects-texts .icons,
-.other-skills-texts .icons {
+.projects-texts .icons {
     @media screen and (min-width: 320px) and (max-width: 600px) {
         display: none;
     }
