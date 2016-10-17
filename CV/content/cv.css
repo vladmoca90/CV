@@ -94,7 +94,6 @@ body,
     line-height: 70px; }
 
 #curriculum-vitae,
-#cv-header,
 #cv-content,
 #contact-details,
 #personal-information,
@@ -106,7 +105,6 @@ body,
 #other-skills-section {
   width: 100%; }
 
-#cv-header,
 #contact-details > #vlad-mocanu-image > img {
   height: 100%; }
 
