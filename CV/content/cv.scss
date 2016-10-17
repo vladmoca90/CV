@@ -249,15 +249,15 @@ body,
         @include max-width-no-display;
     }
 }
+#university-container {
+    clear: left;
+}
 .university-education {
     margin-left: 5%;
 }
 #avantaj-consulting-container,
 #university-container {
     max-width: 700px;
-}
-#university-container {
-    clear: left;
 }
 #projects-section {
     .projects-texts {
