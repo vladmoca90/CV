@@ -309,3 +309,6 @@ body,
       #skills-section .skills-list li span:first-child {
         top: 1px; } }
 
+#other-skills-section {
+  padding-bottom: 2%; }
+
