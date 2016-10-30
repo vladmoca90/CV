@@ -100,6 +100,7 @@ body,
     font-family: $heading-font;
 }
 #cv-header {
+    @include max-width-height;
     max-height: 70px;
     h2 {
         line-height: 70px;
@@ -119,9 +120,6 @@ body,
 }
 #contact-details>#vlad-mocanu-image>img {
     height: $max-height;
-}
-#cv-header {
-    @include max-width-height;
 }
 #cv-header,
 #contact-details, 
