@@ -137,7 +137,7 @@ body,
 .avantaj-consulting-year,
 #avantaj-consulting-education,
 .university-year,
-.university-education {
+#university-education {
   float: left; }
 
 #contact-details > #vlad-mocanu-image,
@@ -252,9 +252,9 @@ body,
 
 #university-container {
   clear: left; }
-  #university-container .university-education {
+  #university-container #university-education {
     margin-left: 5%; }
-    #university-container .university-education p:nth-child(2) {
+    #university-container #university-education p:nth-child(2) {
       margin-bottom: 0px; }
 
 #projects-section .projects-texts {
