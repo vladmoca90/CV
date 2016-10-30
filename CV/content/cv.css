@@ -135,7 +135,7 @@ body,
 #contact-details > #vlad-mocanu-image,
 #personal-information,
 .avantaj-consulting-year,
-.avantaj-consulting-education,
+#avantaj-consulting-education,
 .university-year,
 .university-education {
   float: left; }
@@ -232,22 +232,22 @@ body,
 #university-container {
   max-width: 700px; }
 
-.avantaj-consulting-education {
+#avantaj-consulting-education {
   margin-left: 12%; }
   @media screen and (min-width: 320px) and (max-width: 512px) {
-    .avantaj-consulting-education {
+    #avantaj-consulting-education {
       margin-left: 15%; } }
   @media screen and (min-width: 513px) and (max-width: 599px) {
-    .avantaj-consulting-education {
+    #avantaj-consulting-education {
       margin-left: 14%; } }
   @media screen and (min-width: 600px) and (max-width: 640px) {
-    .avantaj-consulting-education {
+    #avantaj-consulting-education {
       margin-left: 13.5%; } }
   @media screen and (min-width: 641px) and (max-width: 767px) {
-    .avantaj-consulting-education {
+    #avantaj-consulting-education {
       margin-left: 13%; } }
   @media screen and (max-width: 480px) {
-    .avantaj-consulting-education .final-marks {
+    #avantaj-consulting-education .final-marks {
       display: none; } }
 
 #university-container {
