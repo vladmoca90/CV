@@ -191,7 +191,7 @@ body,
       margin-top: 0.5%; } }
   @media screen and (min-width: 480px) and (max-width: 767px) {
     #personal-information {
-      margin: -1.5% auto;
+      margin: -1.25% auto;
       float: none; } }
 
 #personal-information-details-left,
