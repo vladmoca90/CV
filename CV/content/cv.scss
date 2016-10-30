@@ -299,8 +299,10 @@ body,
 }
 .in-progress {
     margin-left: 4px;
-    font-style: italic;
-    font-weight: normal;
+    font: {
+        style: italic;
+        weight: normal;
+    }
 }
 #projects-section p:nth-child(15),
 #skills-section .skills-list {
