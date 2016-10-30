@@ -11,8 +11,8 @@ $zero-auto: 0 auto;
     float: none;
 }
 @mixin max-width-height {
-    $max-width: 100%;
-    $max-height: 100%;
+    width: 100%;
+    height: 100%;
 }
 @mixin max-width-no-display {
     @media screen and (max-width: 480px) {
