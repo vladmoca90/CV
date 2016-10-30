@@ -168,6 +168,20 @@ body,
         margin-left: 3%;
     }
 }
+#contact-details {
+    #vlad-mocanu-image {
+        @media screen and (max-width: 767px) {
+            @include margin-float-group;
+        }
+        img  {
+            max-height: 200px;
+            @media screen and (max-width: 767px) {
+                @include margin-float-group;
+                display: block;
+            }
+        }
+    }
+}
 #personal-information {
     display: table;
     max-width: 520px;
@@ -211,22 +225,12 @@ body,
         }
     }
 }
-#contact-details {
-    #vlad-mocanu-image {
-        @media screen and (max-width: 767px) {
-            @include margin-float-group;
-        }
-        img  {
-            max-height: 200px;
-            @media screen and (max-width: 767px) {
-                @include margin-float-group;
-                display: block;
-            }
-        }
-    }
-}
 #education-section-institutions p {
     margin: 5px 0px;
+}
+#avantaj-consulting-container,
+#university-container {
+    max-width: 700px;
 }
 .avantaj-consulting-education {
     margin-left: 12%;
@@ -254,10 +258,6 @@ body,
             margin-bottom: 0px;
         }
     }
-}
-#avantaj-consulting-container,
-#university-container {
-    max-width: 700px;
 }
 #projects-section {
     .projects-texts {
