@@ -204,6 +204,8 @@ body,
     #personal-information {
       margin: -1.25% auto;
       float: none; } }
+  #personal-information #personal-information-details p {
+    display: inline-block; }
 
 #education-section-institutions p {
   margin: 5px 0px; }
