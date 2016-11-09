@@ -181,12 +181,9 @@ body,
     }
 }
 #personal-information {
-    display: table;
     max-width: 520px;
     margin-top: 2.2%;
-    border-spacing: 6px;
     @media screen and (max-width: 480px) {
-        border-spacing: 2px;
         margin-left: 0%;
     }
     @media screen and (max-width: 767px) {
