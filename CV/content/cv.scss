@@ -196,32 +196,6 @@ body,
         margin: -1.25% auto;
         float: none;
     }
-    #personal-information-details-left,
-    #personal-information-details-right {
-        display: table-cell;
-        p {
-            display: table-row;
-        }
-    }
-    #personal-information-details-right {
-        margin-left: 2%;
-        @media screen and (min-width: 320px) and (max-width: 433px) {
-            margin-left: 1%;
-        }
-        @media screen and (min-width: 512px) and (max-width: 599px) {
-            margin-left: 3%;
-        }
-        .linkedin-link {
-            @media screen and (max-width: 480px) {
-                display: none;
-            }
-        }
-        .replaced-linkedin-link {
-            @media screen and (min-width: 481px) {
-                display: none;
-            }
-        }
-    }
 }
 #education-section-institutions p {
     margin: 5px 0px;
