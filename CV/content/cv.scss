@@ -195,14 +195,16 @@ body,
         margin: -1.25% auto;
         float: none;
     }
-    .linkedin-link {
-        @media screen and (max-width: 480px) {
-            display: none;
+    #personal-information-details {
+        .linkedin-link {
+            @media screen and (max-width: 480px) {
+                display: none;
+            }
         }
-    }
-    .replaced-linkedin-link {
-        @media screen and (min-width: 481px) {
-            display: none;
+        .replaced-linkedin-link {
+            @media screen and (min-width: 481px) {
+                display: none;
+            }
         }
     }
 }

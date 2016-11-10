@@ -204,10 +204,10 @@ body,
       margin: -1.25% auto;
       float: none; } }
   @media screen and (max-width: 480px) {
-    #personal-information .linkedin-link {
+    #personal-information #personal-information-details .linkedin-link {
       display: none; } }
   @media screen and (min-width: 481px) {
-    #personal-information .replaced-linkedin-link {
+    #personal-information #personal-information-details .replaced-linkedin-link {
       display: none; } }
 
 #education-section-institutions p {
