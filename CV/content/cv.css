@@ -54,31 +54,13 @@ body,
 #skills-section ul > li,
 .projects-texts {
   font-size: 18px; }
-  @media screen and (min-width: 320px) and (max-width: 359px) {
-    #personal-information,
-    #education-section,
-    #skills-section ul > li,
-    .projects-texts {
-      font-size: 13px; } }
-  @media screen and (min-width: 360px) and (max-width: 384px) {
-    #personal-information,
-    #education-section,
-    #skills-section ul > li,
-    .projects-texts {
-      font-size: 14px; } }
-  @media screen and (min-width: 385px) and (max-width: 411px) {
-    #personal-information,
-    #education-section,
-    #skills-section ul > li,
-    .projects-texts {
-      font-size: 15px; } }
-  @media screen and (min-width: 412px) and (max-width: 511px) {
+  @media screen and (min-width: 320px) and (max-width: 384px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     .projects-texts {
       font-size: 16px; } }
-  @media screen and (min-width: 512px) and (max-width: 599px) {
+  @media screen and (min-width: 385px) and (max-width: 511px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
