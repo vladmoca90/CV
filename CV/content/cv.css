@@ -201,7 +201,7 @@ body,
       margin-top: 0.5%; } }
   @media screen and (min-width: 480px) and (max-width: 767px) {
     #personal-information {
-      margin: -1.25% auto;
+      margin: 1% 0% -1.25% 0%;
       float: none; } }
   @media screen and (max-width: 480px) {
     #personal-information #personal-information-details .linkedin-link {
