@@ -172,11 +172,9 @@ body,
 
 #personal-information {
   max-width: 520px;
-  margin-top: 2.2%;
-  border-spacing: 6px; }
+  margin-top: 2.2%; }
   @media screen and (max-width: 480px) {
     #personal-information {
-      border-spacing: 2px;
       margin-left: 0%; } }
   @media screen and (max-width: 767px) {
     #personal-information {
