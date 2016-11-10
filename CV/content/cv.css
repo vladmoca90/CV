@@ -260,13 +260,11 @@ body,
 #projects-section .projects-texts {
   margin-right: 2%; }
   @media screen and (max-width: 650px) {
-    #projects-section .projects-texts .projects-links {
+    #projects-section .projects-texts .projects-links,
+    #projects-section .projects-texts .icons {
       display: none; } }
   @media screen and (min-width: 651px) {
     #projects-section .projects-texts .replaced-projects-links {
-      display: none; } }
-  @media screen and (min-width: 320px) and (max-width: 600px) {
-    #projects-section .projects-texts .icons {
       display: none; } }
 
 .icons,
