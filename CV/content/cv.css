@@ -189,7 +189,6 @@ body,
       display: block; } }
 
 #personal-information {
-  display: table;
   max-width: 520px;
   margin-top: 2.2%;
   border-spacing: 6px; }
@@ -204,26 +203,12 @@ body,
     #personal-information {
       margin: -1.25% auto;
       float: none; } }
-  #personal-information #personal-information-details-left,
-  #personal-information #personal-information-details-right {
-    display: table-cell; }
-    #personal-information #personal-information-details-left p,
-    #personal-information #personal-information-details-right p {
-      display: table-row; }
-  #personal-information #personal-information-details-right {
-    margin-left: 2%; }
-    @media screen and (min-width: 320px) and (max-width: 433px) {
-      #personal-information #personal-information-details-right {
-        margin-left: 1%; } }
-    @media screen and (min-width: 512px) and (max-width: 599px) {
-      #personal-information #personal-information-details-right {
-        margin-left: 3%; } }
-    @media screen and (max-width: 480px) {
-      #personal-information #personal-information-details-right .linkedin-link {
-        display: none; } }
-    @media screen and (min-width: 481px) {
-      #personal-information #personal-information-details-right .replaced-linkedin-link {
-        display: none; } }
+  @media screen and (max-width: 480px) {
+    #personal-information .linkedin-link {
+      display: none; } }
+  @media screen and (min-width: 481px) {
+    #personal-information .replaced-linkedin-link {
+      display: none; } }
 
 #education-section-institutions p {
   margin: 5px 0px; }
