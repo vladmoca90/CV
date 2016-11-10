@@ -59,31 +59,31 @@ body,
     #education-section,
     #skills-section ul > li,
     .projects-texts {
-      font-size: 12px; } }
+      font-size: 13px; } }
   @media screen and (min-width: 360px) and (max-width: 384px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     .projects-texts {
-      font-size: 13px; } }
+      font-size: 14px; } }
   @media screen and (min-width: 385px) and (max-width: 411px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     .projects-texts {
-      font-size: 14px; } }
+      font-size: 15px; } }
   @media screen and (min-width: 412px) and (max-width: 511px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     .projects-texts {
-      font-size: 15px; } }
+      font-size: 16px; } }
   @media screen and (min-width: 512px) and (max-width: 599px) {
     #personal-information,
     #education-section,
     #skills-section ul > li,
     .projects-texts {
-      font-size: 16px; } }
+      font-size: 17px; } }
 
 #contact-details,
 #education-section,
