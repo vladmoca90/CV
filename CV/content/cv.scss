@@ -195,13 +195,15 @@ body,
         p {
             margin-bottom: 5px;
         }
-        .linkedin-link {
-            @include max-width-no-display;
-        }
-        .replaced-linkedin-link {
-            @include min-width-no-display;
-        }
     }
+}
+.linkedin-link
+.other-skills-link {
+    @include max-width-no-display;
+}
+.replaced-linkedin-link,
+.replaced-other-skills-link {
+    @include min-width-no-display;
 }
 #education-section-institutions p {
     margin: 5px 0px;
@@ -298,10 +300,4 @@ body,
 }
 #other-skills-section {
     padding-bottom: 2%;
-    .other-skills-link {
-        @include max-width-no-display;
-    }
-    .replaced-other-skills-link {
-        @include min-width-no-display;
-    }
 }

@@ -189,12 +189,16 @@ body,
       float: none; } }
   #personal-information #personal-information-details p {
     margin-bottom: 5px; }
-  @media screen and (max-width: 480px) {
-    #personal-information #personal-information-details .linkedin-link {
-      display: none; } }
-  @media screen and (min-width: 481px) {
-    #personal-information #personal-information-details .replaced-linkedin-link {
-      display: none; } }
+
+@media screen and (max-width: 480px) {
+  .linkedin-link
+.other-skills-link {
+    display: none; } }
+
+@media screen and (min-width: 481px) {
+  .replaced-linkedin-link,
+  .replaced-other-skills-link {
+    display: none; } }
 
 #education-section-institutions p {
   margin: 5px 0px; }
@@ -281,10 +285,4 @@ body,
 
 #other-skills-section {
   padding-bottom: 2%; }
-  @media screen and (max-width: 480px) {
-    #other-skills-section .other-skills-link {
-      display: none; } }
-  @media screen and (min-width: 481px) {
-    #other-skills-section .replaced-other-skills-link {
-      display: none; } }
 
