@@ -188,8 +188,7 @@ body,
         text-align: center;
     }
     @media screen and (min-width: 480px) and (max-width: 767px) {
-        margin: auto;
-        float: none;
+        @include margin-float-group;
     }
     #personal-information-details {
         p {
