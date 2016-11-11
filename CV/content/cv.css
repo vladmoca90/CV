@@ -176,18 +176,16 @@ body,
 #personal-information {
   max-width: 520px;
   margin-top: 2.2%; }
-  @media screen and (max-width: 383px) {
-    #personal-information {
-      text-align: center; } }
   @media screen and (max-width: 480px) {
     #personal-information {
       margin-left: 0%; } }
   @media screen and (max-width: 767px) {
     #personal-information {
-      margin-top: 0.5%; } }
+      margin-top: 0.5%;
+      text-align: center; } }
   @media screen and (min-width: 480px) and (max-width: 767px) {
     #personal-information {
-      margin: 1% 0% -1.25% 0%;
+      margin: 1.25% auto;
       float: none; } }
   @media screen and (max-width: 480px) {
     #personal-information #personal-information-details .linkedin-link {
