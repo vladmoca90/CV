@@ -275,4 +275,10 @@ body,
 
 #other-skills-section {
   padding-bottom: 2%; }
+  @media screen and (max-width: 480px) {
+    #other-skills-section .other-skills-link {
+      display: none; } }
+  @media screen and (min-width: 481px) {
+    #other-skills-section .replaced-other-skills-link {
+      display: none; } }
 
