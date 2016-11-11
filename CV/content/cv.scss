@@ -19,6 +19,11 @@ $zero-auto: 0 auto;
         display: none;
     }
 }
+@mixin min-width-no-display {
+    @media screen and (min-width: 481px) {
+        display: none;
+    }
+}
 
 body {   
     padding: 0px;
@@ -190,14 +195,10 @@ body,
     }
     #personal-information-details {
         .linkedin-link {
-            @media screen and (max-width: 480px) {
-                display: none;
-            }
+            @include max-width-no-display;
         }
         .replaced-linkedin-link {
-            @media screen and (min-width: 481px) {
-                display: none;
-            }
+            @include min-width-no-display;
         }
     }
 }
@@ -297,13 +298,9 @@ body,
 #other-skills-section {
     padding-bottom: 2%;
     .other-skills-link {
-        @media screen and (max-width: 480px) {
-            display: none;
-        }
+        @include max-width-no-display;
     }
     .replaced-other-skills-link {
-        @media screen and (min-width: 481px) {
-            display: none;
-        }
+        @include min-width-no-display;
     }
 }
