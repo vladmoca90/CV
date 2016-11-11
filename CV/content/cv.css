@@ -233,11 +233,11 @@ body,
 
 #projects-section .projects-texts {
   margin-right: 2%; }
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 720px) {
     #projects-section .projects-texts .projects-links,
     #projects-section .projects-texts .icons {
       display: none; } }
-  @media screen and (min-width: 651px) {
+  @media screen and (min-width: 721px) {
     #projects-section .projects-texts .replaced-projects-links {
       display: none; } }
 
