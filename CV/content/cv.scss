@@ -192,6 +192,9 @@ body,
         float: none;
     }
     #personal-information-details {
+        p {
+            margin-bottom: 5px;
+        }
         .linkedin-link {
             @include max-width-no-display;
         }

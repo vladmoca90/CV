@@ -187,6 +187,8 @@ body,
     #personal-information {
       margin: auto;
       float: none; } }
+  #personal-information #personal-information-details p {
+    margin-bottom: 5px; }
   @media screen and (max-width: 480px) {
     #personal-information #personal-information-details .linkedin-link {
       display: none; } }
