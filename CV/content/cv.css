@@ -130,6 +130,7 @@ body,
 
 #contact-details > #vlad-mocanu-image,
 #personal-information,
+#personal-information-details,
 .projects-texts,
 #education-section-intitutions,
 .skills-list {
@@ -137,6 +138,7 @@ body,
   @media screen and (min-width: 320px) and (max-width: 767px) {
     #contact-details > #vlad-mocanu-image,
     #personal-information,
+    #personal-information-details,
     .projects-texts,
     #education-section-intitutions,
     .skills-list {
@@ -144,6 +146,7 @@ body,
   @media screen and (min-width: 768px) and (max-width: 899px) {
     #contact-details > #vlad-mocanu-image,
     #personal-information,
+    #personal-information-details,
     .projects-texts,
     #education-section-intitutions,
     .skills-list {
@@ -151,6 +154,7 @@ body,
   @media screen and (min-width: 900px) and (max-width: 1023px) {
     #contact-details > #vlad-mocanu-image,
     #personal-information,
+    #personal-information-details,
     .projects-texts,
     #education-section-intitutions,
     .skills-list {
