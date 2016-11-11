@@ -173,6 +173,9 @@ body,
 #personal-information {
   max-width: 520px;
   margin-top: 2.2%; }
+  @media screen and (max-width: 383px) {
+    #personal-information {
+      text-align: center; } }
   @media screen and (max-width: 480px) {
     #personal-information {
       margin-left: 0%; } }
