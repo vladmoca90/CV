@@ -191,8 +191,8 @@ body,
     margin-bottom: 5px; }
 
 @media screen and (max-width: 480px) {
-  .linkedin-link
-.other-skills-link {
+  .linkedin-link,
+  .other-skills-link {
     display: none; } }
 
 @media screen and (min-width: 481px) {
